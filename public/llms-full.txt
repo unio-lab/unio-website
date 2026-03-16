@@ -1,0 +1,120 @@
+# UNIO Lab — Full Site Content
+
+> UNIO Lab is a product studio that builds and ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery. Based in Germany, France, and Tunisia.
+
+UNIO Lab uses AI coding agents as its primary development tool. Senior engineers make architecture decisions, direct AI implementation, review output, and own quality. The result: production-grade platforms shipped in weeks, not months.
+
+Current products include Dativo (EU Data Act compliance for connected product manufacturers, open-core on GitHub) and Filahti (agricultural advisory platform for Tunisian farmers via WhatsApp).
+
+---
+
+## Homepage
+
+### We build software products. Fast.
+
+UNIO Lab is a product studio that ships production-grade platforms in weeks, not months. We use AI coding agents as our primary development tool. Our portfolio is our proof.
+
+### Our Products
+
+**Dativo** — EU Data Act Compliance · Open Core
+Operational platform for connected product manufacturers to comply with the EU Data Act. Equipment registry with smart matching, automated data mapping, customer self-service portal, fulfillment engine with SLA tracking, trade secret classification, and compliance audit trail. Open-core — Community Edition on GitHub, Commercial Edition for enterprise.
+
+**Filahti** — Agricultural Advisory · Tunisia
+Digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers. Hybrid WhatsApp bot and companion mobile app with credit-based consultations, AI-assisted diagnostics, digital prescriptions, and on-site visit booking — in Tunisian Arabic, Modern Standard Arabic, and French.
+
+### Our Process
+
+1. **Scope:** You describe the business problem. We ask hard questions, cut scope to what actually matters, and agree on a fixed price and timeline. No ambiguity, no open-ended retainers.
+2. **Build:** Our engineers build with AI coding agents from Tunisia. Architecture decisions, code review, and client communication happen from Germany and France. We ship working increments — not status reports.
+3. **Ship:** You get a deployed, production-ready product with documentation, source code, and a clean handoff. Not a prototype. Not a wireframe. Software that works.
+
+### Why UNIO Lab
+
+- **AI-Native Development:** AI coding agents (Claude Code, Cursor, GitHub Copilot) are our primary development tool. We deliver in weeks what traditional teams quote months for.
+- **Two Products as Proof:** Dativo handles EU Data Act compliance for industrial manufacturers. Filahti connects Tunisian farmers with agricultural experts via WhatsApp. Both built by our team. Both production-grade.
+- **Fixed Price, Fixed Scope:** No hourly billing. No scope creep. We agree on what gets built, what it costs, and when it ships.
+- **Two Continents, One Team:** Engineering from Tunisia, architecture and client communication from Germany and France. A product studio that operates across time zones.
+
+### How We Build
+
+Every product goes through the same pipeline:
+1. Problem (You) → 2. Architecture (Human) → 3. Implementation (AI + Human) → 4. Review (Human) → 5. Ship (Together)
+
+AI does the throughput. Humans make the decisions. Together we ship faster than either could alone.
+
+---
+
+## Our Work
+
+### Dativo — EU Data Act Compliance
+
+**The Problem:** The EU Data Act (Regulation 2023/2854) is in force since September 2025. Manufacturers of connected products must share product-generated data with customers and authorized third parties — or face penalties of up to 4% of global annual turnover. Most manufacturers have equipment data scattered across silos with conflicting identifiers, no customer-facing access layer, and no audit trail.
+
+**What We Built:** Dativo is the operational platform that makes EU Data Act compliance auditable and scalable. Equipment identity resolution with smart matching, automated data mapping, a customer self-service portal for data access requests, a fulfillment engine with SLA tracking, trade secret classification with Article 4(3) compliance, and a full audit trail ready for supervisory review. Open-core model — the Community Edition is genuinely useful, not a lead-gen trap.
+
+- Website: https://dativo.dev
+- GitHub: https://github.com/unio-lab/dativo
+
+### Filahti — Agricultural Advisory for Tunisia
+
+**The Problem:** Tunisia has 516,000 farms, 87% under 20 hectares. Public agricultural extension services are functionally dead — offices can't cover fuel for field visits. No private advisory market exists. Pesticide dealers fill the vacuum, diagnosing and selling with a conflict of interest and credit terms reaching 50% interest. Climate conditions are changing fast, with prolonged drought since 2017, and inherited farming knowledge is no longer enough.
+
+**What We Built:** Filahti connects farmers with vetted agricultural experts, government extension agents, and certified input suppliers through a hybrid WhatsApp bot and companion mobile app. Credit-based consultations with AI-assisted diagnostics, digital prescriptions with QR codes for dealer fulfillment, and on-site visit booking. Full support for Tunisian Arabic, Modern Standard Arabic, and French — designed for voice-first interaction and low-bandwidth use.
+
+**What we're building next:** Covering all major Tunisian crops — olives, cereals, citrus, livestock, and vegetables — with sponsor-funded credit programs for smallholder farmers.
+
+---
+
+## About
+
+### Two continents. One studio.
+
+UNIO Lab started seven years ago as a cloud-native consulting firm — Kubernetes, CI/CD, event-driven architecture. We were good at it. But consulting has a ceiling: you're always selling time, never building equity.
+
+So we pivoted. Today UNIO Lab is a product studio. We build complete software platforms — our own and for clients who need something shipped fast and built right. Dativo (EU Data Act compliance for connected product manufacturers) and Filahti (agricultural advisory for Tunisian farmers) are the proof that this model works.
+
+What changed? AI coding agents made it possible for a small team of senior engineers to ship at the speed of a much larger organization. We don't use AI as a gimmick — it's how we build. Every product goes through the same pipeline: human architecture, AI-augmented implementation, human review, shipped together.
+
+### How we work
+
+- **Products, not projects:** We don't sell hours or staff augmentation. We take ownership of a problem and ship a product that solves it. Fixed scope, fixed price, shipped fast.
+- **AI does the throughput:** Our senior engineers direct AI coding agents to handle implementation at scale. The humans make architecture decisions, review output, and own quality. AI handles volume.
+- **Honest about scope:** We'll tell you what we can build, what it will cost, and when you'll have it. If it's not something we can ship well, we'll say so upfront.
+- **Open by default:** Dativo's core is open source. We ship in the open because transparency builds trust — and because good software should be accessible.
+
+### Where we are
+
+- **Mönchengladbach, Germany:** Engineering leadership and product architecture. German business hours, EU compliance expertise.
+- **Paris, France:** Product strategy and client-facing work. French market and European partnerships.
+- **Tunis, Tunisia:** AI-augmented development and delivery operations. Continuous shipping across time zones.
+
+---
+
+## Contact
+
+Have a product that needs building? Tell us the problem you're trying to solve. We'll tell you honestly whether we can ship it — and how fast.
+
+- Email: hello@unio-lab.com
+- Website form: https://unio-lab.com/contact
+
+---
+
+## Frequently Asked Questions
+
+**What does UNIO Lab do?**
+UNIO Lab is a product studio that builds and ships complete software platforms. We scope the problem, agree on a fixed price and timeline, and deliver a production-ready product — not a prototype or wireframe.
+
+**How does UNIO Lab use AI in development?**
+AI coding agents (Claude Code, Cursor, GitHub Copilot) are our primary development tools. Senior engineers make architecture decisions and review all output. AI handles implementation throughput, allowing a small team to ship at the speed of a much larger organization.
+
+**What is Dativo?**
+Dativo is an open-core compliance platform that enables manufacturers of connected products to share product-generated data with customers and authorized third parties, as required by the EU Data Act (Regulation (EU) 2023/2854). The Community Edition is available on GitHub.
+
+**What is Filahti?**
+Filahti is a digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers through a hybrid WhatsApp bot and companion mobile app. It supports Tunisian Arabic, Modern Standard Arabic, and French.
+
+**Where is UNIO Lab based?**
+UNIO Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for AI-augmented development and delivery operations.
+
+**How does pricing work at UNIO Lab?**
+Fixed price, fixed scope. We agree upfront on what gets built, what it costs, and when it ships. No hourly billing, no open-ended retainers, no scope creep.

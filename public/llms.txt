@@ -1,0 +1,29 @@
+# UNIO Lab
+
+> UNIO Lab is a product studio that builds and ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery. Based in Germany, France, and Tunisia.
+
+UNIO Lab uses AI coding agents as its primary development tool. Senior engineers make architecture decisions, direct AI implementation, review output, and own quality. The result: production-grade platforms shipped in weeks, not months.
+
+Current products include Dativo (EU Data Act compliance for connected product manufacturers, open-core on GitHub) and Filahti (agricultural advisory platform for Tunisian farmers via WhatsApp).
+
+## Core Pages
+
+- [Homepage](https://unio-lab.com/): Product studio overview, process, capabilities, and portfolio
+- [Our Work](https://unio-lab.com/work): Case studies — Dativo and Filahti
+- [About](https://unio-lab.com/about): Company story, principles, and locations
+- [Contact](https://unio-lab.com/contact): Tell us what you need built
+
+## Products
+
+- [Dativo](https://dativo.dev): EU Data Act compliance platform — open-core, Community Edition on [GitHub](https://github.com/unio-lab/dativo)
+- [Filahti](https://unio-lab.com/work#filahti): Agricultural advisory platform for Tunisia (in development)
+
+## Open Source
+
+- [Dativo on GitHub](https://github.com/unio-lab/dativo): Source code and documentation
+- [UNIO Lab GitHub](https://github.com/unio-lab): Organization repositories
+
+## Legal
+
+- [Privacy Policy](https://unio-lab.com/privacy)
+- [Imprint](https://unio-lab.com/imprint)
