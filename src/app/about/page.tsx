@@ -5,7 +5,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "UNIO Lab is a product studio that ships complete software platforms in weeks. Two continents, one studio — Mönchengladbach, Paris, and Tunis.",
+    "UNIO Lab is a spec-driven product lab. We engineer production platforms using the Spec → Agent → Ship lifecycle. Germany, France, Tunisia.",
   alternates: {
     canonical: "https://unio-lab.com/about",
   },
@@ -13,24 +13,24 @@ export const metadata: Metadata = {
 
 const principles = [
   {
-    title: "Products, not projects",
+    title: "Specifications are the product",
     description:
-      "We don't sell hours or staff augmentation. We take ownership of a problem and ship a product that solves it. Fixed scope, fixed price, shipped fast.",
+      "We don\u2019t ship code — we ship specified systems. The specification suite is the primary deliverable. Code is a generated artifact that serves the spec. When the spec changes, the code regenerates. This is how we maintain architectural integrity across every iteration.",
   },
   {
-    title: "AI does the throughput",
+    title: "Human architecture, agent implementation",
     description:
-      "Our senior engineers direct AI coding agents to handle implementation at scale. The humans make architecture decisions, review output, and own quality. AI handles volume.",
+      "Every architecture decision is made by an engineer with domain knowledge. AI agents handle the implementation volume under contracts defined by the spec. We don\u2019t delegate thinking to AI — we delegate typing.",
   },
   {
-    title: "Honest about scope",
+    title: "Verifiable, not trustable",
     description:
-      "We'll tell you what we can build, what it will cost, and when you'll have it. If it's not something we can ship well, we'll say so upfront.",
+      "We don\u2019t ask you to trust AI-generated output. We verify every component against its specification — automatically, continuously, before anything ships. Contract tests, acceptance tests, and architectural invariants are non-negotiable quality gates.",
   },
   {
     title: "Open by default",
     description:
-      "Dativo's core is open source. We ship in the open because transparency builds trust — and because good software should be accessible.",
+      "Dativo\u2019s core is open source. Our specifications, agent configurations, and architecture decisions are transparent. We believe the best way to prove engineering quality is to make it inspectable.",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function AboutPage() {
               About
             </p>
             <h1 className="mt-4 font-heading text-4xl font-bold tracking-tight text-navy sm:text-5xl text-balance">
-              Two continents. One studio.
+              Two continents. One lab.
             </h1>
           </div>
         </Container>
@@ -63,19 +63,21 @@ export default function AboutPage() {
                 time, never building equity.
               </p>
               <p>
-                So we pivoted. Today UNIO Lab is a product studio. We build
-                complete software platforms — our own and for clients who need
-                something shipped fast and built right. Dativo (EU Data Act
-                compliance for connected product manufacturers) and Filahti
-                (agricultural advisory for Tunisian farmers) are the proof that
-                this model works.
+                Today UNIO Lab is a spec-driven product lab. We build complete
+                software platforms using a methodology we call Spec → Agent → Ship:
+                human-authored specifications as the source of truth, AI agents as
+                the implementation layer, and human engineers governing every
+                architectural and quality decision. Dativo and Filahti are the proof
+                that this approach works — two production platforms, built by two
+                engineers, with the architectural rigor of a much larger organization.
               </p>
               <p>
-                What changed? AI coding agents made it possible for a small team
-                of senior engineers to ship at the speed of a much larger
-                organization. We don't use AI as a gimmick — it's how we build.
-                Every product goes through the same pipeline: human architecture,
-                AI-augmented implementation, human review, shipped together.
+                What makes this possible isn&apos;t AI tooling — it&apos;s engineering
+                discipline applied to AI tooling. The spec-driven lifecycle ensures
+                that AI-generated code is always verifiable against a structured
+                specification. The result is speed without the quality trade-offs
+                that plague prompt-based development. We don&apos;t generate code from
+                conversations. We generate it from contracts.
               </p>
             </div>
           </div>
@@ -136,7 +138,7 @@ export default function AboutPage() {
                   Tunis
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-grey-accent">
-                  AI-augmented development and delivery operations. Continuous
+                  Spec-driven development and delivery operations. Continuous
                   shipping across time zones.
                 </p>
               </div>
@@ -146,9 +148,9 @@ export default function AboutPage() {
       </section>
 
       <CTASection
-        title="Have a product that needs building?"
-        description="We're always looking for the next platform to ship. Tell us what you need."
-        buttonText="Tell Us What You Need Built"
+        title="Have a system that needs engineering?"
+        description="Describe the problem. We'll assess whether it's a good fit for spec-driven delivery and scope it within a week."
+        buttonText="Start a Conversation"
         buttonHref="/contact"
       />
     </>

@@ -35,7 +35,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Product studio. Germany, France, Tunisia. We build software products with AI coding agents.
+              Spec-driven product lab. Germany, France, Tunisia.
             </p>
             <div className="mt-6 flex gap-4">
               <a
@@ -101,7 +101,7 @@ export default function Footer() {
               © {new Date().getFullYear()} UNIO Lab. All rights reserved.
             </p>
             <p className="text-xs text-white/40">
-              We build software products. Fast.
+              Spec-driven product lab.
             </p>
           </div>
         </div>

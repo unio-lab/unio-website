@@ -150,7 +150,7 @@ export default function ContactForm() {
             htmlFor="message"
             className="block text-sm font-medium text-navy"
           >
-            What do you need built? <span className="text-red-500">*</span>
+            Describe the problem or system you need <span className="text-red-500">*</span>
           </label>
           <textarea
             id="message"

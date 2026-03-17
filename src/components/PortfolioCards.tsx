@@ -13,6 +13,7 @@ interface PortfolioItem {
   tag: string;
   title: string;
   description: string;
+  teamLine?: string;
   links: PortfolioLink[];
 }
 
@@ -22,6 +23,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Dativo",
     description:
       "Operational platform for connected product manufacturers to comply with the EU Data Act. Equipment registry with smart matching, automated data mapping, customer self-service portal, fulfillment engine with SLA tracking, trade secret classification, and compliance audit trail. Open-core — Community Edition on GitHub, Commercial Edition for enterprise.",
+    teamLine: "Specified, built, and shipped by a 2-person team in weeks.",
     links: [
       { label: "dativo.dev →", href: "https://dativo.dev", external: true },
       {
@@ -36,6 +38,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Filahti",
     description:
       "Digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers. Hybrid WhatsApp bot and companion mobile app with credit-based consultations, AI-assisted diagnostics, digital prescriptions, and on-site visit booking — in Tunisian Arabic, Modern Standard Arabic, and French.",
+    teamLine: "Specified and built by a 2-person team. Launching 2026.",
     links: [{ label: "Coming Soon", href: "#", disabled: true }],
   },
 ];
@@ -46,8 +49,8 @@ export default function PortfolioCards() {
       <Container>
         <SectionHeader
           label="Our Work"
-          title="Two products. Two continents. Two industries."
-          description="We don't build demos or prototypes. We build complete, deployable platforms — then put them into production."
+          title="Production Software Platforms, Built with Our Spec-Driven Approach"
+          description="Every product below was built using our spec-driven lifecycle. The specifications, agent configurations, and source code are real — not marketing demos."
         />
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
@@ -65,6 +68,11 @@ export default function PortfolioCards() {
               <p className="mt-3 text-sm leading-relaxed text-grey-accent">
                 {item.description}
               </p>
+              {item.teamLine && (
+                <p className="mt-4 text-xs text-grey-accent/60 italic">
+                  {item.teamLine}
+                </p>
+              )}
               <div className="mt-6 flex flex-wrap gap-4">
                 {item.links.map((link) =>
                   link.disabled ? (

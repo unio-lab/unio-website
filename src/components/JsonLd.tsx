@@ -6,7 +6,7 @@ export function OrganizationJsonLd() {
     url: "https://unio-lab.com",
     logo: "https://unio-lab.com/logo-kit/png/wordmark-navy-512.png",
     description:
-      "Product studio that ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery.",
+      "Spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks.",
     sameAs: [
       "https://github.com/unio-lab",
       "https://linkedin.com/company/unio-lab",
@@ -28,9 +28,9 @@ export function ProfessionalServiceJsonLd() {
     name: "UNIO Lab",
     url: "https://unio-lab.com",
     description:
-      "Product studio that builds and ships complete software platforms — from scoping to production deployment — using AI-augmented development. Fixed scope, fixed price.",
+      "Spec-driven product lab that engineers production software platforms using structured specifications, agent-based implementation, and human-governed quality gates.",
     areaServed: ["EU", "Tunisia"],
-    serviceType: "Software Product Development",
+    serviceType: "Spec-Driven Software Engineering",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Products",
@@ -78,15 +78,15 @@ export function FAQPageJsonLd() {
         name: "What does UNIO Lab do?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "UNIO Lab is a product studio that builds and ships complete software platforms. We scope the problem, agree on a fixed price and timeline, and deliver a production-ready product — not a prototype or wireframe.",
+          text: "UNIO Lab is a spec-driven product lab. We engineer production software platforms using structured specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision.",
         },
       },
       {
         "@type": "Question",
-        name: "How does UNIO Lab use AI in development?",
+        name: "What is the Spec → Agent → Ship lifecycle?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "AI coding agents (Claude Code, Cursor, GitHub Copilot) are our primary development tools. Senior engineers make architecture decisions and review all output. AI handles implementation throughput, allowing a small team to ship at the speed of a much larger organization.",
+          text: "Spec → Agent → Ship is our five-phase engineering lifecycle: Specify (human-authored specifications), Plan (AI-generated implementation plan, human-validated), Build (agentic implementation with continuous spec validation), Verify (autonomous quality gates), and Ship (deployed product with specification suite). Every product we build follows this lifecycle.",
         },
       },
       {
@@ -110,15 +110,15 @@ export function FAQPageJsonLd() {
         name: "Where is UNIO Lab based?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "UNIO Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for AI-augmented development and delivery operations.",
+          text: "UNIO Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for spec-driven development and delivery operations.",
         },
       },
       {
         "@type": "Question",
-        name: "How does pricing work at UNIO Lab?",
+        name: "What do I receive when UNIO Lab delivers a product?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Fixed price, fixed scope. We agree upfront on what gets built, what it costs, and when it ships. No hourly billing, no open-ended retainers, no scope creep.",
+          text: "You receive the production system, the complete specification suite, agent configuration, and a handoff guide. You can maintain, extend, or rebuild the system without us. The spec outlives the code.",
         },
       },
     ],

@@ -1,8 +1,8 @@
 # UNIO Lab — Full Site Content
 
-> UNIO Lab is a product studio that builds and ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery. Based in Germany, France, and Tunisia.
+> UNIO Lab is a spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks. Based in Germany, France, and Tunisia.
 
-UNIO Lab uses AI coding agents as its primary development tool. Senior engineers make architecture decisions, direct AI implementation, review output, and own quality. The result: production-grade platforms shipped in weeks, not months.
+UNIO Lab engineers production software platforms using a methodology called Spec → Agent → Ship. Human-authored specifications are the source of truth. AI agents are the implementation layer. Human engineers govern every architectural and quality decision. The result: production platforms with the architectural rigor of a much larger organization.
 
 Current products include Dativo (EU Data Act compliance for connected product manufacturers, open-core on GitHub) and Filahti (agricultural advisory platform for Tunisian farmers via WhatsApp).
 
@@ -10,37 +10,36 @@ Current products include Dativo (EU Data Act compliance for connected product ma
 
 ## Homepage
 
-### We build software products. Fast.
+### Software engineered from specification. Implemented by AI. Governed by humans.
 
-UNIO Lab is a product studio that ships production-grade platforms in weeks, not months. We use AI coding agents as our primary development tool. Our portfolio is our proof.
+We author precise, machine-readable specifications for every system we build. AI agents implement under contract. Human engineers own every architecture decision and quality gate. The result: production platforms shipped in weeks — with the rigor of a team ten times our size.
 
-### Our Products
+### Our Engineering Lifecycle: Spec → Agent → Ship
+
+Every product we build follows the same five-phase lifecycle. Specifications are the source of truth. AI agents are the execution layer. Human engineers govern every decision. Code is a generated artifact — the spec is what ships.
+
+1. **SPECIFY:** Human-authored specification as source of truth. Every engagement begins with specification, not code. We decompose the problem into structured, machine-readable specs: system architecture, API contracts, data models, acceptance criteria, and behavioral invariants. (Senior Engineer — Human)
+2. **PLAN:** AI-generated implementation plan, human-validated. The specification is fed to an AI agent which generates a detailed implementation plan. The human engineer reviews against the spec, corrects architectural decisions, and approves. No code is written until the plan passes human review. (AI Agent → Human Review)
+3. **BUILD:** Agentic implementation with continuous spec validation. The AI agent implements the approved plan — generating code, tests, and documentation against the spec. Every generated component is validated against the specification. The human engineer steers by refining specs, not editing code. (AI Agent Primary · Human Steering)
+4. **VERIFY:** Agentic DevOps — autonomous quality gates. CI/CD pipelines run AI-powered quality gates: security scanning, dependency analysis, performance benchmarking, and spec-compliance checks. Agents diagnose failures, propose fixes, and re-run. (AI Agents Autonomous · Human Governance)
+5. **SHIP:** Deployed product with spec-as-documentation. The product ships with its specification suite intact. You receive working software, the complete spec library, and the agent configuration. The spec outlives the code. You're not dependent on us. (Together)
+
+### Our Products — Built with Spec → Agent → Ship
 
 **Dativo** — EU Data Act Compliance · Open Core
 Operational platform for connected product manufacturers to comply with the EU Data Act. Equipment registry with smart matching, automated data mapping, customer self-service portal, fulfillment engine with SLA tracking, trade secret classification, and compliance audit trail. Open-core — Community Edition on GitHub, Commercial Edition for enterprise.
+Specified, built, and shipped by a 2-person team in weeks.
 
 **Filahti** — Agricultural Advisory · Tunisia
 Digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers. Hybrid WhatsApp bot and companion mobile app with credit-based consultations, AI-assisted diagnostics, digital prescriptions, and on-site visit booking — in Tunisian Arabic, Modern Standard Arabic, and French.
-
-### Our Process
-
-1. **Scope:** You describe the business problem. We ask hard questions, cut scope to what actually matters, and agree on a fixed price and timeline. No ambiguity, no open-ended retainers.
-2. **Build:** Our engineers build with AI coding agents from Tunisia. Architecture decisions, code review, and client communication happen from Germany and France. We ship working increments — not status reports.
-3. **Ship:** You get a deployed, production-ready product with documentation, source code, and a clean handoff. Not a prototype. Not a wireframe. Software that works.
+Specified and built by a 2-person team. Launching 2026.
 
 ### Why UNIO Lab
 
-- **AI-Native Development:** AI coding agents (Claude Code, Cursor, GitHub Copilot) are our primary development tool. We deliver in weeks what traditional teams quote months for.
-- **Two Products as Proof:** Dativo handles EU Data Act compliance for industrial manufacturers. Filahti connects Tunisian farmers with agricultural experts via WhatsApp. Both built by our team. Both production-grade.
-- **Fixed Price, Fixed Scope:** No hourly billing. No scope creep. We agree on what gets built, what it costs, and when it ships.
-- **Two Continents, One Team:** Engineering from Tunisia, architecture and client communication from Germany and France. A product studio that operates across time zones.
-
-### How We Build
-
-Every product goes through the same pipeline:
-1. Problem (You) → 2. Architecture (Human) → 3. Implementation (AI + Human) → 4. Review (Human) → 5. Ship (Together)
-
-AI does the throughput. Humans make the decisions. Together we ship faster than either could alone.
+- **Spec-Driven Engineering:** Specifications are our source of truth — not prompts, not conversations, not tickets. Every system starts as a structured, machine-readable spec. Implementation is generated from it, tested against it, and regenerated when it changes.
+- **Verifiable by Design:** Every output — code, API, deployment — is validated against its specification before it ships. Contract tests, acceptance tests, and architectural invariants run automatically. We verify AI-generated code, not trust it.
+- **You Own Everything:** When we hand over a product, you get the source code, the complete specification suite, and the agent configuration. You can maintain, extend, or rebuild the system without us.
+- **Senior Engineers, Not Prompt Operators:** Our engineers have 7+ years of experience in cloud-native architecture, industrial digitalization, and platform engineering. AI agents amplify that expertise — they don't substitute for it.
 
 ---
 
@@ -52,6 +51,8 @@ AI does the throughput. Humans make the decisions. Together we ship faster than 
 
 **What We Built:** Dativo is the operational platform that makes EU Data Act compliance auditable and scalable. Equipment identity resolution with smart matching, automated data mapping, a customer self-service portal for data access requests, a fulfillment engine with SLA tracking, trade secret classification with Article 4(3) compliance, and a full audit trail ready for supervisory review. Open-core model — the Community Edition is genuinely useful, not a lead-gen trap.
 
+**How We Built It:** Dativo was built using spec-driven development. The system architecture — 8 microservices, a connector SDK, feature-flag-controlled edition gating — was specified before a single line of code was generated. Each service has its own specification with API contracts, data models, and behavioral invariants. AI agents implemented under these contracts. Human engineers made every architecture decision: the monolith-to-microservices deployment strategy, the plugin-based connector architecture, the feature-gating approach for Community vs. Commercial editions. The specification suite ships with the product — it IS the documentation.
+
 - Website: https://dativo.dev
 - GitHub: https://github.com/unio-lab/dativo
 
@@ -61,38 +62,40 @@ AI does the throughput. Humans make the decisions. Together we ship faster than 
 
 **What We Built:** Filahti connects farmers with vetted agricultural experts, government extension agents, and certified input suppliers through a hybrid WhatsApp bot and companion mobile app. Credit-based consultations with AI-assisted diagnostics, digital prescriptions with QR codes for dealer fulfillment, and on-site visit booking. Full support for Tunisian Arabic, Modern Standard Arabic, and French — designed for voice-first interaction and low-bandwidth use.
 
+**How We Built It:** Filahti was specified around the constraints of its users: low-bandwidth connectivity, voice-first interaction patterns, multilingual support (Tunisian Arabic, MSA, French), and WhatsApp as the primary interface — because that's what farmers already have installed. The spec-driven approach was critical here: the AI diagnostic system, credit-based consultation model, and expert routing logic were all specified as behavioral contracts before implementation. Every diagnostic pathway is testable against the spec.
+
 **What we're building next:** Covering all major Tunisian crops — olives, cereals, citrus, livestock, and vegetables — with sponsor-funded credit programs for smallholder farmers.
 
 ---
 
 ## About
 
-### Two continents. One studio.
+### Two continents. One lab.
 
 UNIO Lab started seven years ago as a cloud-native consulting firm — Kubernetes, CI/CD, event-driven architecture. We were good at it. But consulting has a ceiling: you're always selling time, never building equity.
 
-So we pivoted. Today UNIO Lab is a product studio. We build complete software platforms — our own and for clients who need something shipped fast and built right. Dativo (EU Data Act compliance for connected product manufacturers) and Filahti (agricultural advisory for Tunisian farmers) are the proof that this model works.
+Today UNIO Lab is a spec-driven product lab. We build complete software platforms using a methodology we call Spec → Agent → Ship: human-authored specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision. Dativo and Filahti are the proof that this approach works — two production platforms, built by two engineers, with the architectural rigor of a much larger organization.
 
-What changed? AI coding agents made it possible for a small team of senior engineers to ship at the speed of a much larger organization. We don't use AI as a gimmick — it's how we build. Every product goes through the same pipeline: human architecture, AI-augmented implementation, human review, shipped together.
+What makes this possible isn't AI tooling — it's engineering discipline applied to AI tooling. The spec-driven lifecycle ensures that AI-generated code is always verifiable against a structured specification. The result is speed without the quality trade-offs that plague prompt-based development. We don't generate code from conversations. We generate it from contracts.
 
 ### How we work
 
-- **Products, not projects:** We don't sell hours or staff augmentation. We take ownership of a problem and ship a product that solves it. Fixed scope, fixed price, shipped fast.
-- **AI does the throughput:** Our senior engineers direct AI coding agents to handle implementation at scale. The humans make architecture decisions, review output, and own quality. AI handles volume.
-- **Honest about scope:** We'll tell you what we can build, what it will cost, and when you'll have it. If it's not something we can ship well, we'll say so upfront.
-- **Open by default:** Dativo's core is open source. We ship in the open because transparency builds trust — and because good software should be accessible.
+- **Specifications are the product:** We don't ship code — we ship specified systems. The specification suite is the primary deliverable. Code is a generated artifact that serves the spec. When the spec changes, the code regenerates.
+- **Human architecture, agent implementation:** Every architecture decision is made by an engineer with domain knowledge. AI agents handle the implementation volume under contracts defined by the spec. We don't delegate thinking to AI — we delegate typing.
+- **Verifiable, not trustable:** We don't ask you to trust AI-generated output. We verify every component against its specification — automatically, continuously, before anything ships. Contract tests, acceptance tests, and architectural invariants are non-negotiable quality gates.
+- **Open by default:** Dativo's core is open source. Our specifications, agent configurations, and architecture decisions are transparent. We believe the best way to prove engineering quality is to make it inspectable.
 
 ### Where we are
 
 - **Mönchengladbach, Germany:** Engineering leadership and product architecture. German business hours, EU compliance expertise.
 - **Paris, France:** Product strategy and client-facing work. French market and European partnerships.
-- **Tunis, Tunisia:** AI-augmented development and delivery operations. Continuous shipping across time zones.
+- **Tunis, Tunisia:** Spec-driven development and delivery operations. Continuous shipping across time zones.
 
 ---
 
 ## Contact
 
-Have a product that needs building? Tell us the problem you're trying to solve. We'll tell you honestly whether we can ship it — and how fast.
+Start a conversation. Tell us about the system you need engineered. We'll assess fit, scope the specification work, and give you a clear timeline and fixed price within a week.
 
 - Email: hello@unio-lab.com
 - Website form: https://unio-lab.com/contact
@@ -102,10 +105,10 @@ Have a product that needs building? Tell us the problem you're trying to solve. 
 ## Frequently Asked Questions
 
 **What does UNIO Lab do?**
-UNIO Lab is a product studio that builds and ships complete software platforms. We scope the problem, agree on a fixed price and timeline, and deliver a production-ready product — not a prototype or wireframe.
+UNIO Lab is a spec-driven product lab. We engineer production software platforms using structured specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision.
 
-**How does UNIO Lab use AI in development?**
-AI coding agents (Claude Code, Cursor, GitHub Copilot) are our primary development tools. Senior engineers make architecture decisions and review all output. AI handles implementation throughput, allowing a small team to ship at the speed of a much larger organization.
+**What is the Spec → Agent → Ship lifecycle?**
+Spec → Agent → Ship is our five-phase engineering lifecycle: Specify (human-authored specifications), Plan (AI-generated implementation plan, human-validated), Build (agentic implementation with continuous spec validation), Verify (autonomous quality gates), and Ship (deployed product with specification suite). Every product we build follows this lifecycle.
 
 **What is Dativo?**
 Dativo is an open-core compliance platform that enables manufacturers of connected products to share product-generated data with customers and authorized third parties, as required by the EU Data Act (Regulation (EU) 2023/2854). The Community Edition is available on GitHub.
@@ -114,7 +117,7 @@ Dativo is an open-core compliance platform that enables manufacturers of connect
 Filahti is a digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers through a hybrid WhatsApp bot and companion mobile app. It supports Tunisian Arabic, Modern Standard Arabic, and French.
 
 **Where is UNIO Lab based?**
-UNIO Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for AI-augmented development and delivery operations.
+UNIO Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for spec-driven development and delivery operations.
 
-**How does pricing work at UNIO Lab?**
-Fixed price, fixed scope. We agree upfront on what gets built, what it costs, and when it ships. No hourly billing, no open-ended retainers, no scope creep.
+**What do I receive when UNIO Lab delivers a product?**
+You receive the production system, the complete specification suite, agent configuration, and a handoff guide. You can maintain, extend, or rebuild the system without us. The spec outlives the code.

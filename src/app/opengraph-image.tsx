@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "UNIO Lab — We build software products. Fast.";
+export const alt = "UNIO Lab — Spec-Driven Product Lab";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -33,14 +33,14 @@ export default async function Image() {
         </div>
         <div
           style={{
-            fontSize: 36,
+            fontSize: 32,
             fontWeight: 600,
             color: "#FFFFFF",
             lineHeight: 1.3,
             marginBottom: "16px",
           }}
         >
-          We build software products. Fast.
+          Software engineered from specification.
         </div>
         <div
           style={{
@@ -50,7 +50,7 @@ export default async function Image() {
             lineHeight: 1.4,
           }}
         >
-          Product studio. Fixed scope. Shipped in weeks.
+          Spec-driven product lab. Germany, France, Tunisia.
         </div>
         <div
           style={{

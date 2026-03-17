@@ -3,30 +3,30 @@ import SectionHeader from "./SectionHeader";
 
 const capabilities = [
   {
-    title: "AI-Native Development",
+    title: "Spec-Driven Engineering",
     description:
-      "We don't use AI as an add-on. AI coding agents are our primary development tool — Claude Code, Cursor, GitHub Copilot. This is how we deliver in weeks what traditional teams quote months for.",
+      "Specifications are our source of truth — not prompts, not conversations, not tickets. Every system starts as a structured, machine-readable spec. Implementation is generated from it, tested against it, and regenerated when it changes. This is how we deliver with architectural precision at implementation speed.",
   },
   {
-    title: "Two Products as Proof",
+    title: "Verifiable by Design",
     description:
-      "Dativo handles EU Data Act compliance for industrial manufacturers. Filahti connects Tunisian farmers with agricultural experts via WhatsApp. Both built by our team. Both production-grade.",
+      "Every output — code, API, deployment — is validated against its specification before it ships. Contract tests, acceptance tests, and architectural invariants run automatically. We don\u2019t trust AI-generated code. We verify it.",
   },
   {
-    title: "Fixed Price, Fixed Scope",
+    title: "You Own Everything",
     description:
-      'No hourly billing. No scope creep disguised as "agile." We agree on what gets built, what it costs, and when it ships. If we can\'t scope it clearly, we\'ll tell you.',
+      "When we hand over a product, you get the source code, the complete specification suite, and the agent configuration. You can maintain, extend, or rebuild the system without us. We deliver capability, not dependency.",
   },
   {
-    title: "Two Continents, One Team",
+    title: "Senior Engineers, Not Prompt Operators",
     description:
-      "Engineering from Tunisia, architecture and client communication from Germany and France. Not nearshoring — a product studio that happens to operate across time zones.",
+      "Our engineers have 7+ years of experience in cloud-native architecture, industrial digitalization, and platform engineering. AI agents amplify that expertise — they don\u2019t substitute for it. The architecture decisions that determine whether your system scales in 18 months are made by humans with domain knowledge.",
   },
 ];
 
 export default function CapabilityGrid() {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="bg-navy/[0.02] py-20 sm:py-24">
       <Container>
         <SectionHeader
           label="Why UNIO Lab"

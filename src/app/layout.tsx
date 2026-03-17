@@ -12,22 +12,22 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://unio-lab.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "UNIO Lab — We build software products. Fast.",
-    template: "%s | UNIO Lab",
+    default: "UNIO Lab — Spec-Driven Product Lab",
+    template: "%s | UNIO Lab — Spec-Driven Product Lab",
   },
   description:
-    "UNIO Lab is a product studio that ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery.",
+    "Spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks.",
   keywords: [
-    "product studio",
-    "software development",
-    "ship fast",
-    "AI-augmented development",
+    "spec-driven development",
+    "product lab",
+    "specification engineering",
+    "AI-implemented software",
+    "human-governed engineering",
     "EU compliance platform",
     "Dativo",
     "open source",
     "fixed price software",
     "platform engineering",
-    "Next.js",
   ],
   authors: [{ name: "UNIO Lab" }],
   creator: "UNIO Lab",
@@ -36,23 +36,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "UNIO Lab",
-    title: "UNIO Lab — We build software products. Fast.",
+    title: "UNIO Lab — Spec-Driven Product Lab",
     description:
-      "Product studio that ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery.",
+      "Spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks.",
     images: [
       {
         url: "/opengraph/og-image.png",
         width: 1200,
         height: 630,
-        alt: "UNIO Lab — We build software products. Fast.",
+        alt: "UNIO Lab — Spec-Driven Product Lab",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "UNIO Lab — We build software products. Fast.",
+    title: "UNIO Lab — Spec-Driven Product Lab",
     description:
-      "Product studio that ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery.",
+      "Spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks.",
     images: ["/opengraph/og-image.png"],
   },
   robots: {

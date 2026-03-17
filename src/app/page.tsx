@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
-import PortfolioCards from "@/components/PortfolioCards";
 import ProcessSteps from "@/components/ProcessSteps";
+import PortfolioCards from "@/components/PortfolioCards";
 import CapabilityGrid from "@/components/CapabilityGrid";
-import BuiltWithAI from "@/components/BuiltWithAI";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
@@ -16,14 +15,13 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <PortfolioCards />
       <ProcessSteps />
+      <PortfolioCards />
       <CapabilityGrid />
-      <BuiltWithAI />
       <CTASection
-        title="Have something that needs building?"
-        description="Tell us what you're trying to solve. We'll tell you honestly whether we can ship it — and how fast."
-        buttonText="Tell Us What You Need Built"
+        title="Have a system that needs engineering?"
+        description="Describe the problem. We'll assess whether it's a good fit for spec-driven delivery and scope it within a week. If it's not right for our methodology, we'll tell you."
+        buttonText="Start a Conversation"
         buttonHref="/contact"
       />
     </>

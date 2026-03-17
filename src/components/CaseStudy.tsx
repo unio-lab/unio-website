@@ -14,6 +14,7 @@ interface CaseStudyProps {
   title: string;
   problem: string;
   solution: string;
+  howBuilt?: string;
   extra?: { heading: string; text: string };
   links?: CaseStudyLink[];
 }
@@ -24,6 +25,7 @@ export default function CaseStudy({
   title,
   problem,
   solution,
+  howBuilt,
   extra,
   links,
 }: CaseStudyProps) {
@@ -56,6 +58,17 @@ export default function CaseStudy({
                 {solution}
               </p>
             </div>
+
+            {howBuilt && (
+              <div>
+                <h3 className="font-heading text-lg font-semibold text-navy">
+                  How We Built It
+                </h3>
+                <p className="mt-2 text-base leading-relaxed text-grey-accent">
+                  {howBuilt}
+                </p>
+              </div>
+            )}
 
             {extra && (
               <div>

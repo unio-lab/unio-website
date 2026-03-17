@@ -6,22 +6,23 @@ export default function Hero() {
     <section className="py-24 sm:py-32">
       <Container className="text-center">
         <p className="text-sm font-semibold uppercase tracking-wider text-grey-accent">
-          Product Studio · Germany + France + Tunisia
+          Spec-Driven Product Lab
         </p>
         <h1 className="mt-4 font-heading text-4xl font-bold tracking-tight text-navy sm:text-5xl lg:text-6xl text-balance">
-          We build software products. Fast.
+          Software engineered from specification. Implemented by AI. Governed by humans.
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-grey-accent">
-          UNIO Lab is a product studio that ships production-grade platforms in
-          weeks, not months. We use AI coding agents as our primary development
-          tool. Our portfolio is our proof.
+          We author precise, machine-readable specifications for every system we build.
+          AI agents implement under contract. Human engineers own every architecture
+          decision and quality gate. The result: production platforms shipped in
+          weeks — with the rigor of a team ten times our size.
         </p>
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Button href="/contact" variant="primary">
-            Tell Us What You Need Built
+          <Button href="/#methodology" variant="primary">
+            See How We Work
           </Button>
           <Button href="/work" variant="outline">
-            See Our Work
+            View Our Portfolio
           </Button>
         </div>
       </Container>

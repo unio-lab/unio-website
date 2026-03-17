@@ -48,7 +48,7 @@ export default function Navigation() {
         {/* Desktop CTA */}
         <div className="hidden lg:block">
           <Button href="/contact" variant="primary">
-            Tell Us What You Need Built
+            Start a Conversation
           </Button>
         </div>
 
@@ -88,7 +88,7 @@ export default function Navigation() {
             ))}
             <div className="pt-2">
               <Button href="/contact" variant="primary" className="w-full">
-                Tell Us What You Need Built
+                Start a Conversation
               </Button>
             </div>
           </div>

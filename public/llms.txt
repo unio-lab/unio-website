@@ -1,17 +1,17 @@
 # UNIO Lab
 
-> UNIO Lab is a product studio that builds and ships complete software platforms in weeks. Fixed scope, fixed price, AI-augmented delivery. Based in Germany, France, and Tunisia.
+> UNIO Lab is a spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks. Based in Germany, France, and Tunisia.
 
-UNIO Lab uses AI coding agents as its primary development tool. Senior engineers make architecture decisions, direct AI implementation, review output, and own quality. The result: production-grade platforms shipped in weeks, not months.
+UNIO Lab engineers production software platforms using a methodology called Spec → Agent → Ship. Human-authored specifications are the source of truth. AI agents are the implementation layer. Human engineers govern every architectural and quality decision. The result: production platforms with the architectural rigor of a much larger organization.
 
 Current products include Dativo (EU Data Act compliance for connected product manufacturers, open-core on GitHub) and Filahti (agricultural advisory platform for Tunisian farmers via WhatsApp).
 
 ## Core Pages
 
-- [Homepage](https://unio-lab.com/): Product studio overview, process, capabilities, and portfolio
-- [Our Work](https://unio-lab.com/work): Case studies — Dativo and Filahti
-- [About](https://unio-lab.com/about): Company story, principles, and locations
-- [Contact](https://unio-lab.com/contact): Tell us what you need built
+- [Homepage](https://unio-lab.com/): Spec-driven product lab overview, engineering lifecycle, and portfolio
+- [Our Work](https://unio-lab.com/work): Case studies — Dativo and Filahti, engineered with Spec → Agent → Ship
+- [About](https://unio-lab.com/about): Company story, engineering principles, and locations
+- [Contact](https://unio-lab.com/contact): Start a conversation about the system you need engineered
 
 ## Products
 

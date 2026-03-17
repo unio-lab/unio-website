@@ -22,6 +22,15 @@ const config: Config = {
         heading: ["'Segoe UI'", "system-ui", "-apple-system", "sans-serif"],
         body: ["'Segoe UI'", "system-ui", "-apple-system", "sans-serif"],
       },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0", transform: "translateY(12px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.35s ease-out",
+      },
     },
   },
   plugins: [],

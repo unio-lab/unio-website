@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Have a product that needs building? Tell us what you need and we'll tell you honestly whether we can ship it.",
+    "Tell us about the system you need engineered. We'll assess fit, scope the specification work, and give you a clear timeline and fixed price within a week.",
   alternates: {
     canonical: "https://unio-lab.com/contact",
   },
@@ -22,11 +22,12 @@ export default function ContactPage() {
               Contact
             </p>
             <h1 className="mt-4 font-heading text-3xl font-bold tracking-tight text-navy sm:text-4xl">
-              Have a product that needs building?
+              Start a conversation
             </h1>
             <p className="mt-4 text-lg text-grey-accent">
-              Tell us the problem you're trying to solve. We'll tell you
-              honestly whether we can ship it — and how fast.
+              Tell us about the system you need engineered. We&apos;ll assess fit,
+              scope the specification work, and give you a clear timeline and
+              fixed price within a week.
             </p>
           </div>
 
