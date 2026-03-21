@@ -10,13 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         navy: {
-          DEFAULT: "#0C1F3F",
-          mid: "#1A2F50",
+          DEFAULT: "#022A5A",
+          mid: "#1A3A62",
         },
         grey: {
-          accent: "#607080",
+          accent: "#687A92",
         },
-        white: "#FAFBFC",
+        white: "#FEFFFF",
       },
       fontFamily: {
         heading: ["'Geist Sans'", "system-ui", "-apple-system", "sans-serif"],
