@@ -49,8 +49,8 @@ export default function PortfolioCards() {
       <Container>
         <SectionHeader
           label="Our Work"
-          title="Production Software Platforms, Built with Our Spec-Driven Approach"
-          description="Every product below was built using our spec-driven lifecycle. The specifications, agent configurations, and source code are real — not marketing demos."
+          title="This is what the next generation of software companies looks like."
+          description="Small teams. Precise specifications. Production platforms shipped in weeks. Every product below was built using our full lifecycle: human architecture, AI-augmented implementation, human verification, deployed in production."
         />
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2">

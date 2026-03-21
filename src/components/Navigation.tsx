@@ -8,6 +8,7 @@ import Button from "./Button";
 const navLinks = [
   { href: "/work", label: "Work" },
   { href: "/about", label: "About" },
+  { href: "/philosophy", label: "Philosophy" },
   { href: "/contact", label: "Contact" },
 ];
 

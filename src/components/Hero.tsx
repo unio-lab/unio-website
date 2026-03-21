@@ -11,6 +11,9 @@ export default function Hero() {
         <h1 className="mt-4 font-heading text-4xl font-bold tracking-tight text-navy sm:text-5xl lg:text-6xl text-balance">
           Software engineered from specification. Implemented by AI. Governed by humans.
         </h1>
+        <p className="mx-auto mt-4 max-w-2xl text-lg italic text-grey-accent/80">
+          Because AI making software cheaper doesn&apos;t shrink the market for rigour — it expands it.
+        </p>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-grey-accent">
           We author precise, machine-readable specifications for every system we build.
           AI agents implement under contract. Human engineers own every architecture

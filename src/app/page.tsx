@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
+import WhyThisMoment from "@/components/WhyThisMoment";
 import ProcessSteps from "@/components/ProcessSteps";
 import PortfolioCards from "@/components/PortfolioCards";
 import CapabilityGrid from "@/components/CapabilityGrid";
@@ -16,6 +17,7 @@ export default function HomePage() {
     <>
       <Hero />
       <ProcessSteps />
+      <WhyThisMoment />
       <PortfolioCards />
       <CapabilityGrid />
       <CTASection

@@ -5,7 +5,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "UNIO Lab is a spec-driven product lab. We engineer production platforms using the Spec → Agent → Ship lifecycle. Germany, France, Tunisia.",
+    "We made a bet on the Jevons Paradox: AI making software cheaper doesn't shrink the market for engineering rigour — it expands it. UNIO Lab is built for exactly this moment.",
   alternates: {
     canonical: "https://unio-lab.com/about",
   },
@@ -45,7 +45,7 @@ export default function AboutPage() {
               About
             </p>
             <h1 className="mt-4 font-heading text-4xl font-bold tracking-tight text-navy sm:text-5xl text-balance">
-              Two continents. One lab.
+              We made a bet on a paradox.
             </h1>
           </div>
         </Container>
@@ -57,27 +57,43 @@ export default function AboutPage() {
           <div className="mx-auto max-w-3xl">
             <div className="space-y-4 text-base leading-relaxed text-grey-accent">
               <p>
-                UNIO Lab started seven years ago as a cloud-native consulting
-                firm — Kubernetes, CI/CD, event-driven architecture. We were
-                good at it. But consulting has a ceiling: you're always selling
-                time, never building equity.
+                Seven years ago Unio Lab was a cloud-native consultancy — Kubernetes,
+                CI/CD, event-driven architecture. We were good at it. But we were
+                watching something happen in the market that most engineering firms
+                were getting backwards.
               </p>
               <p>
-                Today UNIO Lab is a spec-driven product lab. We build complete
-                software platforms using a methodology we call Spec → Agent → Ship:
-                human-authored specifications as the source of truth, AI agents as
-                the implementation layer, and human engineers governing every
-                architectural and quality decision. Dativo and Filahti are the proof
-                that this approach works — two production platforms, built by two
-                engineers, with the architectural rigor of a much larger organization.
+                The common story was: AI will automate software, so engineers are
+                finished. We thought the opposite. We thought the Jevons Paradox
+                would apply — when something becomes dramatically more efficient,
+                consumption rises faster than the efficiency saves. Make it cheap
+                to start a software company and millions more software companies
+                start. Each of those companies needs infrastructure that scales.
+                Each of them eventually needs a human who understands what breaks
+                at five hundred users that worked fine at fifty.
               </p>
               <p>
-                What makes this possible isn&apos;t AI tooling — it&apos;s engineering
-                discipline applied to AI tooling. The spec-driven lifecycle ensures
-                that AI-generated code is always verifiable against a structured
-                specification. The result is speed without the quality trade-offs
-                that plague prompt-based development. We don&apos;t generate code from
-                conversations. We generate it from contracts.
+                So we pivoted — not away from engineering, but towards the part of
+                it that matters most when AI does the implementation volume:{" "}
+                <strong className="text-navy font-medium">
+                  specification, architecture, and verification.
+                </strong>{" "}
+                The decisions that determine whether a system holds together in
+                eighteen months are still made by humans with hard-won domain
+                knowledge. We built a lab around exactly those decisions.
+              </p>
+              <p>
+                Today Unio Lab operates across three locations. Every product we
+                build goes through the same lifecycle: human-authored specification
+                as the source of truth, AI agents handling implementation at scale,
+                human engineers owning every architecture decision and quality gate.
+                The result is production software shipped in weeks with the rigour
+                of a team ten times our size.
+              </p>
+              <p>
+                Dativo and Filahti are the proof. Both built by a two-person team.
+                Both production platforms. Both delivered in weeks. We&apos;re not
+                describing a methodology — we&apos;re running it.
               </p>
             </div>
           </div>

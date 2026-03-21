@@ -3,24 +3,24 @@ import SectionHeader from "./SectionHeader";
 
 const capabilities = [
   {
-    title: "Spec-Driven Engineering",
+    title: "Human architecture",
     description:
-      "Specifications are our source of truth — not prompts, not conversations, not tickets. Every system starts as a structured, machine-readable spec. Implementation is generated from it, tested against it, and regenerated when it changes. This is how we deliver with architectural precision at implementation speed.",
+      "Every system starts with a senior engineer-authored specification. AI implements against it.",
   },
   {
-    title: "Verifiable by Design",
+    title: "Verified, not trusted",
     description:
-      "Every output — code, API, deployment — is validated against its specification before it ships. Contract tests, acceptance tests, and architectural invariants run automatically. We don\u2019t trust AI-generated code. We verify it.",
+      "AI-generated code is validated against its specification before it ships. Always.",
   },
   {
-    title: "You Own Everything",
+    title: "Shipped in weeks",
     description:
-      "When we hand over a product, you get the source code, the complete specification suite, and the agent configuration. You can maintain, extend, or rebuild the system without us. We deliver capability, not dependency.",
+      "Not because corners were cut. Because specification eliminates rework.",
   },
   {
-    title: "Senior Engineers, Not Prompt Operators",
+    title: "You own everything",
     description:
-      "Our engineers have 7+ years of experience in cloud-native architecture, industrial digitalization, and platform engineering. AI agents amplify that expertise — they don\u2019t substitute for it. The architecture decisions that determine whether your system scales in 18 months are made by humans with domain knowledge.",
+      "Source code, specifications, agent configuration. No lock-in.",
   },
 ];
 
