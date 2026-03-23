@@ -2,7 +2,7 @@ export function OrganizationJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "UNIO Lab",
+    name: "Unio Lab",
     url: "https://unio-lab.com",
     logo: "https://unio-lab.com/logo-kit/png/wordmark-navy-512.png",
     description:
@@ -25,7 +25,7 @@ export function ProfessionalServiceJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "UNIO Lab",
+    name: "Unio Lab",
     url: "https://unio-lab.com",
     description:
       "Spec-driven product lab that engineers production software platforms using structured specifications, agent-based implementation, and human-governed quality gates.",
@@ -75,10 +75,10 @@ export function FAQPageJsonLd() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "What does UNIO Lab do?",
+        name: "What does Unio Lab do?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "UNIO Lab is a spec-driven product lab. We engineer production software platforms using structured specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision.",
+          text: "Unio Lab is a spec-driven product lab. We engineer production software platforms using structured specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision.",
         },
       },
       {
@@ -107,15 +107,15 @@ export function FAQPageJsonLd() {
       },
       {
         "@type": "Question",
-        name: "Where is UNIO Lab based?",
+        name: "Where is Unio Lab based?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "UNIO Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for spec-driven development and delivery operations.",
+          text: "Unio Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for spec-driven development and delivery operations.",
         },
       },
       {
         "@type": "Question",
-        name: "What do I receive when UNIO Lab delivers a product?",
+        name: "What do I receive when Unio Lab delivers a product?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "You receive the production system, the complete specification suite, agent configuration, and a handoff guide. You can maintain, extend, or rebuild the system without us. The spec outlives the code.",

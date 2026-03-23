@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "philosophy": "Philosophy",
+    "contact": "Contact",
+    "cta": "Start a Conversation"
+  },
+  "hero": {
+    "label": "Spec-Driven Product Lab",
+    "title": "Software engineered from specification. Implemented by AI. Governed by humans.",
+    "tagline": "Because AI making software cheaper doesn't shrink the market for rigour — it expands it.",
+    "description": "We author precise, machine-readable specifications for every system we build. AI agents implement under contract. Human engineers own every architecture decision and quality gate. The result: production platforms shipped in weeks — with the rigor of a team ten times our size.",
+    "ctaPrimary": "See How We Work",
+    "ctaSecondary": "View Our Portfolio"
+  },
+  "methodology": {
+    "label": "Our Engineering Lifecycle",
+    "title": "Spec → Agent → Ship",
+    "description": "Every product we build follows the same five-phase lifecycle. Specifications are the source of truth. AI agents are the execution layer. Human engineers govern every decision. Code is a generated artifact — the spec is what ships.",
+    "whoLabel": "Who",
+    "artifactsLabel": "Artifacts",
+    "exampleLabel": "Example",
+    "phases": {
+      "specify": {
+        "number": "01",
+        "phase": "SPECIFY",
+        "title": "Human-authored specification as source of truth",
+        "description": "Every engagement begins with specification, not code. We decompose your problem into structured, machine-readable specs: system architecture, API contracts, data models, acceptance criteria, and behavioral invariants. These specs are readable by humans and executable by agents. The spec IS the product definition.",
+        "who": "Senior Engineer (Human)",
+        "artifacts": "Product specification · Agent configuration",
+        "demoLabel": "See a real specification →"
+      },
+      "plan": {
+        "number": "02",
+        "phase": "PLAN",
+        "title": "AI-generated implementation plan, human-validated",
+        "description": "The specification is fed to an AI agent which generates a detailed implementation plan: task breakdown, file structure, dependency graph, execution order. The human engineer reviews against the spec, corrects architectural decisions, and approves. No code is written until the plan passes human review.",
+        "who": "AI Agent → Human Review",
+        "artifacts": "Implementation plan",
+        "demoLabel": "See a real implementation plan →"
+      },
+      "build": {
+        "number": "03",
+        "phase": "BUILD",
+        "title": "Agentic implementation with continuous spec validation",
+        "description": "The AI agent implements the approved plan — generating code, tests, and documentation against the spec. Every generated component is validated against the specification: contract tests verify interfaces, acceptance criteria execute as tests, architectural invariants are enforced through rules. The human engineer steers by refining specs, not editing code.",
+        "who": "AI Agent (Primary) · Human (Steering)",
+        "artifacts": "Build report",
+        "demoLabel": "See a real build report →"
+      },
+      "verify": {
+        "number": "04",
+        "phase": "VERIFY",
+        "title": "Agentic DevOps — autonomous quality gates",
+        "description": "CI/CD pipelines run AI-powered quality gates: security scanning, dependency analysis, performance benchmarking, and spec-compliance checks. Agents diagnose failures, propose fixes, and re-run. Human engineers set governance rules and review escalations. Deployment decisions are agent-recommended, human-approved.",
+        "who": "AI Agents (Autonomous) · Human (Governance)",
+        "artifacts": "Verification report",
+        "demoLabel": "See a real verification report →"
+      },
+      "ship": {
+        "number": "05",
+        "phase": "SHIP",
+        "title": "Deployed product with spec-as-documentation",
+        "description": "The product ships with its specification suite intact. You receive working software, the complete spec library, and the agent configuration. If you need to modify the system later, update the spec and regenerate. The spec outlives the code. You're not dependent on us.",
+        "who": "Together",
+        "artifacts": "Handoff package",
+        "demoLabel": "See a real handoff package →"
+      }
+    }
+  },
+  "whyNow": {
+    "label": "Why now",
+    "title": "AI makes software cheaper.",
+    "titleContinuation": "That makes the market for software",
+    "titleEmphasis": "bigger.",
+    "subtitle": "The Jevons Paradox: when something becomes dramatically more efficient, consumption doesn't fall — it multiplies. Software is next.",
+    "paragraph1": "When the cost of starting a software company drops from €500K to €5K, millions of teams who couldn't previously afford to build, will build. Each of them needs production-quality infrastructure. Each of them needs someone who can make an architecture decision that will still hold in eighteen months.",
+    "paragraph2Start": "AI does the implementation volume. Human engineers — the kind who have seen what breaks at scale — become",
+    "paragraph2Emphasis": "more",
+    "paragraph2End": "valuable, not less. We built Unio Lab for exactly this moment: senior engineering judgement, delivered at the speed that a post-AI market demands."
+  },
+  "portfolio": {
+    "label": "Our Work",
+    "title": "This is what the next generation of software companies looks like.",
+    "description": "Small teams. Precise specifications. Production platforms shipped in weeks. Every product below was built using our full lifecycle: human architecture, AI-augmented implementation, human verification, deployed in production.",
+    "dativo": {
+      "tag": "Data Act Compliance · EU",
+      "title": "Dativo",
+      "description": "Operational platform for connected product manufacturers to comply with the EU Data Act. Equipment registry with smart matching, automated data mapping, customer self-service portal, fulfillment engine with SLA tracking, trade secret classification, and compliance audit trail. Open-core — Community Edition on GitHub, Commercial Edition for enterprise.",
+      "teamLine": "Specified, built, and shipped by a 2-person team in weeks."
+    },
+    "filahti": {
+      "tag": "Agricultural Advisory · Tunisia",
+      "title": "Filahti",
+      "description": "Digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers. Hybrid WhatsApp bot and companion mobile app with credit-based consultations, AI-assisted diagnostics, digital prescriptions, and on-site visit booking — in Tunisian Arabic, Modern Standard Arabic, and French.",
+      "teamLine": "Specified and built by a 2-person team. Launching 2026.",
+      "linkLabel": "Explore the Specification →"
+    }
+  },
+  "capabilities": {
+    "label": "Why Unio Lab",
+    "title": "What makes this work",
+    "items": {
+      "architecture": {
+        "title": "Human architecture",
+        "description": "Every system starts with a senior engineer-authored specification. AI implements against it."
+      },
+      "verified": {
+        "title": "Verified, not trusted",
+        "description": "AI-generated code is validated against its specification before it ships. Always."
+      },
+      "shipped": {
+        "title": "Shipped in weeks",
+        "description": "Not because corners were cut. Because specification eliminates rework."
+      },
+      "ownership": {
+        "title": "You own everything",
+        "description": "Source code, specifications, agent configuration. No lock-in."
+      }
+    }
+  },
+  "cta": {
+    "title": "Have a system that needs engineering?",
+    "description": "Describe the problem. We'll assess whether it's a good fit for spec-driven delivery and scope it within a week. If it's not right for our methodology, we'll tell you.",
+    "descriptionShort": "Describe the problem. We'll assess whether it's a good fit for spec-driven delivery and scope it within a week.",
+    "button": "Start a Conversation"
+  },
+  "footer": {
+    "tagline": "Spec-driven product lab. Germany, France, Tunisia.",
+    "work": "Work",
+    "company": "Company",
+    "openSource": "Open Source",
+    "dativo": "Dativo Platform",
+    "filahti": "Filahti Platform",
+    "unioApp": "Unio App",
+    "about": "About",
+    "contact": "Contact",
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "dativoGithub": "Dativo on GitHub",
+    "unioGithub": "Unio Lab GitHub",
+    "copyright": "© {year} Unio Lab. All rights reserved.",
+    "bottomTagline": "Spec-driven product lab."
+  },
+  "contactForm": {
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "companyLabel": "Company",
+    "messageLabel": "Describe the problem or system you need",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@company.com",
+    "companyPlaceholder": "Your company name",
+    "messagePlaceholder": "Describe the product, platform, or system you need. Include any constraints like timeline, budget, or tech preferences.",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "required": "*",
+    "privacyConsent": "By submitting this form, you agree to our <link>privacy policy</link>.",
+    "successTitle": "Thank you for reaching out",
+    "successMessage": "We'll review your message and get back to you within one business day.",
+    "successAction": "Send another message"
+  },
+  "cookie": {
+    "message": "We use cookies to understand how visitors interact with our site.",
+    "privacyLink": "Privacy Policy",
+    "decline": "Decline",
+    "accept": "Accept"
+  }
+}

@@ -1,85 +1,45 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import Container from "./Container";
 import SectionHeader from "./SectionHeader";
 
-const phases = [
-  {
-    number: "01",
-    phase: "SPECIFY",
-    title: "Human-authored specification as source of truth",
-    description:
-      "Every engagement begins with specification, not code. We decompose your problem into structured, machine-readable specs: system architecture, API contracts, data models, acceptance criteria, and behavioral invariants. These specs are readable by humans and executable by agents. The spec IS the product definition.",
-    who: "Senior Engineer (Human)",
-    artifacts: "Architecture spec · Feature specs · API contracts · Agent configuration",
-    accentColor: "#D97706",
-  },
-  {
-    number: "02",
-    phase: "PLAN",
-    title: "AI-generated implementation plan, human-validated",
-    description:
-      "The specification is fed to an AI agent which generates a detailed implementation plan: task breakdown, file structure, dependency graph, execution order. The human engineer reviews against the spec, corrects architectural decisions, and approves. No code is written until the plan passes human review.",
-    who: "AI Agent → Human Review",
-    artifacts: "Implementation plan · Technical decisions log · Test strategy",
-    accentColor: "#F59E0B",
-  },
-  {
-    number: "03",
-    phase: "BUILD",
-    title: "Agentic implementation with continuous spec validation",
-    description:
-      "The AI agent implements the approved plan — generating code, tests, and documentation against the spec. Every generated component is validated against the specification: contract tests verify interfaces, acceptance criteria execute as tests, architectural invariants are enforced through rules. The human engineer steers by refining specs, not editing code.",
-    who: "AI Agent (Primary) · Human (Steering)",
-    artifacts: "Spec-compliant code · Contract tests · Acceptance tests · Documentation",
-    accentColor: "#059669",
-  },
-  {
-    number: "04",
-    phase: "VERIFY",
-    title: "Agentic DevOps — autonomous quality gates",
-    description:
-      "CI/CD pipelines run AI-powered quality gates: security scanning, dependency analysis, performance benchmarking, and spec-compliance checks. Agents diagnose failures, propose fixes, and re-run. Human engineers set governance rules and review escalations. Deployment decisions are agent-recommended, human-approved.",
-    who: "AI Agents (Autonomous) · Human (Governance)",
-    artifacts: "Security report · Spec compliance report · Deployment recommendation",
-    accentColor: "#2563EB",
-  },
-  {
-    number: "05",
-    phase: "SHIP",
-    title: "Deployed product with spec-as-documentation",
-    description:
-      "The product ships with its specification suite intact. You receive working software, the complete spec library, and the agent configuration. If you need to modify the system later, update the spec and regenerate. The spec outlives the code. You're not dependent on us.",
-    who: "Together",
-    artifacts: "Production system · Specification suite · Agent config · Handoff guide",
-    accentColor: "#7C3AED",
-  },
-];
+const phaseKeys = ["specify", "plan", "build", "verify", "ship"] as const;
+
+const phaseMeta: Record<string, { demoUrl: string; accentColor: string }> = {
+  specify: { demoUrl: "https://app.unio-lab.com/demo/specify", accentColor: "#D97706" },
+  plan: { demoUrl: "https://app.unio-lab.com/demo/plan", accentColor: "#F59E0B" },
+  build: { demoUrl: "https://app.unio-lab.com/demo/build", accentColor: "#059669" },
+  verify: { demoUrl: "https://app.unio-lab.com/demo/verify", accentColor: "#2563EB" },
+  ship: { demoUrl: "https://app.unio-lab.com/demo/ship", accentColor: "#7C3AED" },
+};
 
 export default function ProcessSteps() {
   const [active, setActive] = useState(0);
-  const current = phases[active];
+  const t = useTranslations("methodology");
+  const key = phaseKeys[active];
+  const meta = phaseMeta[key];
 
   return (
     <section id="methodology" className="bg-navy/[0.02] py-20 sm:py-28">
       <Container>
         <SectionHeader
-          label="Our Engineering Lifecycle"
-          title="Spec → Agent → Ship"
-          description="Every product we build follows the same five-phase lifecycle. Specifications are the source of truth. AI agents are the execution layer. Human engineers govern every decision. Code is a generated artifact — the spec is what ships."
+          label={t("label")}
+          title={t("title")}
+          description={t("description")}
         />
 
         {/* Stepper */}
         <div className="mt-16">
           {/* Step indicators */}
           <div className="flex items-center justify-between">
-            {phases.map((phase, i) => (
+            {phaseKeys.map((pk, i) => (
               <button
-                key={phase.number}
+                key={pk}
                 onClick={() => setActive(i)}
                 className="group relative flex flex-1 flex-col items-center cursor-pointer"
-                aria-label={`Phase ${phase.number}: ${phase.phase}`}
+                aria-label={`Phase ${t(`phases.${pk}.number`)}: ${t(`phases.${pk}.phase`)}`}
               >
                 {/* Connector line (before pill) */}
                 {i > 0 && (
@@ -98,7 +58,7 @@ export default function ProcessSteps() {
                     transform: i === active ? "scale(1.08)" : "scale(1)",
                   }}
                 >
-                  {phase.phase}
+                  {t(`phases.${pk}.phase`)}
                 </div>
               </button>
             ))}
@@ -115,40 +75,55 @@ export default function ProcessSteps() {
                 <span
                   className="font-heading text-6xl font-bold text-navy/10 sm:text-7xl"
                 >
-                  {current.number}
+                  {t(`phases.${key}.number`)}
                 </span>
                 <p
                   className="mt-1 text-xs font-bold uppercase tracking-widest text-navy"
                 >
-                  {current.phase}
+                  {t(`phases.${key}.phase`)}
                 </p>
               </div>
 
               {/* Right: content */}
               <div className="flex-1">
                 <h3 className="font-heading text-xl font-bold text-navy sm:text-2xl">
-                  {current.title}
+                  {t(`phases.${key}.title`)}
                 </h3>
                 <p className="mt-4 text-sm leading-relaxed text-grey-accent sm:text-base">
-                  {current.description}
+                  {t(`phases.${key}.description`)}
                 </p>
                 <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3">
                   <div>
                     <p className="text-[10px] font-semibold uppercase tracking-widest text-navy/30">
-                      Who
+                      {t("whoLabel")}
                     </p>
                     <p className="mt-1 text-sm font-medium text-navy/70">
-                      {current.who}
+                      {t(`phases.${key}.who`)}
                     </p>
                   </div>
                   <div>
                     <p className="text-[10px] font-semibold uppercase tracking-widest text-navy/30">
-                      Artifacts
+                      {t("artifactsLabel")}
                     </p>
                     <p className="mt-1 text-sm text-grey-accent/70">
-                      {current.artifacts}
+                      {t(`phases.${key}.artifacts`)}
                     </p>
                   </div>
+                  {meta.demoUrl && (
+                    <div>
+                      <p className="text-[10px] font-semibold uppercase tracking-widest text-navy/30">
+                        {t("exampleLabel")}
+                      </p>
+                      <a
+                        href={meta.demoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 inline-block text-sm font-medium text-navy transition-colors hover:underline"
+                      >
+                        {t(`phases.${key}.demoLabel`)}
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

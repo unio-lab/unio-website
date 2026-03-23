@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "work": "Réalisations",
+    "about": "À propos",
+    "philosophy": "Philosophie",
+    "contact": "Contact",
+    "cta": "Démarrer une conversation"
+  },
+  "hero": {
+    "label": "Laboratoire produit piloté par spécification",
+    "title": "Logiciel conçu à partir de spécifications. Implémenté par l'IA. Gouverné par l'humain.",
+    "tagline": "Parce que l'IA rendant le logiciel moins cher ne réduit pas le marché de la rigueur — elle l'étend.",
+    "description": "Nous rédigeons des spécifications précises et lisibles par machine pour chaque système que nous construisons. Des agents IA implémentent sous contrat. Les ingénieurs humains prennent chaque décision d'architecture et chaque contrôle qualité. Le résultat : des plateformes en production livrées en quelques semaines — avec la rigueur d'une équipe dix fois notre taille.",
+    "ctaPrimary": "Découvrir notre méthodologie",
+    "ctaSecondary": "Voir notre portfolio"
+  },
+  "methodology": {
+    "label": "Notre cycle de vie d'ingénierie",
+    "title": "Spec → Agent → Ship",
+    "description": "Chaque produit que nous construisons suit le même cycle de vie en cinq phases. Les spécifications sont la source de vérité. Les agents IA sont la couche d'exécution. Les ingénieurs humains gouvernent chaque décision. Le code est un artefact généré — c'est la spec qui est livrée.",
+    "whoLabel": "Qui",
+    "artifactsLabel": "Artefacts",
+    "exampleLabel": "Exemple",
+    "phases": {
+      "specify": {
+        "number": "01",
+        "phase": "SPÉCIFIER",
+        "title": "Spécification humaine comme source de vérité",
+        "description": "Chaque engagement commence par la spécification, pas par le code. Nous décomposons votre problème en spécifications structurées et lisibles par machine : architecture système, contrats d'API, modèles de données, critères d'acceptation et invariants comportementaux. Ces spécifications sont lisibles par les humains et exécutables par les agents. La spec EST la définition du produit.",
+        "who": "Ingénieur senior (Humain)",
+        "artifacts": "Spécification produit · Configuration agent",
+        "demoLabel": "Voir une vraie spécification →"
+      },
+      "plan": {
+        "number": "02",
+        "phase": "PLANIFIER",
+        "title": "Plan d'implémentation généré par l'IA, validé par l'humain",
+        "description": "La spécification est transmise à un agent IA qui génère un plan d'implémentation détaillé : découpage des tâches, structure des fichiers, graphe de dépendances, ordre d'exécution. L'ingénieur humain vérifie par rapport à la spec, corrige les décisions architecturales et approuve. Aucun code n'est écrit tant que le plan n'a pas passé la revue humaine.",
+        "who": "Agent IA → Revue humaine",
+        "artifacts": "Plan d'implémentation",
+        "demoLabel": "Voir un vrai plan d'implémentation →"
+      },
+      "build": {
+        "number": "03",
+        "phase": "CONSTRUIRE",
+        "title": "Implémentation agentique avec validation continue de la spec",
+        "description": "L'agent IA implémente le plan approuvé — générant du code, des tests et de la documentation conformément à la spec. Chaque composant généré est validé par rapport à la spécification : les tests de contrat vérifient les interfaces, les critères d'acceptation s'exécutent comme des tests, les invariants architecturaux sont appliqués via des règles. L'ingénieur humain pilote en affinant les specs, pas en éditant le code.",
+        "who": "Agent IA (Primaire) · Humain (Pilotage)",
+        "artifacts": "Rapport de construction",
+        "demoLabel": "Voir un vrai rapport de construction →"
+      },
+      "verify": {
+        "number": "04",
+        "phase": "VÉRIFIER",
+        "title": "DevOps agentique — portes qualité autonomes",
+        "description": "Les pipelines CI/CD exécutent des portes qualité alimentées par l'IA : analyse de sécurité, analyse des dépendances, benchmarking de performance et vérifications de conformité aux spécifications. Les agents diagnostiquent les échecs, proposent des corrections et relancent. Les ingénieurs humains définissent les règles de gouvernance et examinent les escalades. Les décisions de déploiement sont recommandées par les agents, approuvées par l'humain.",
+        "who": "Agents IA (Autonomes) · Humain (Gouvernance)",
+        "artifacts": "Rapport de vérification",
+        "demoLabel": "Voir un vrai rapport de vérification →"
+      },
+      "ship": {
+        "number": "05",
+        "phase": "LIVRER",
+        "title": "Produit déployé avec la spec comme documentation",
+        "description": "Le produit est livré avec sa suite de spécifications intacte. Vous recevez le logiciel fonctionnel, la bibliothèque complète de spécifications et la configuration agent. Si vous devez modifier le système plus tard, mettez à jour la spec et régénérez. La spec survit au code. Vous ne dépendez pas de nous.",
+        "who": "Ensemble",
+        "artifacts": "Package de livraison",
+        "demoLabel": "Voir un vrai package de livraison →"
+      }
+    }
+  },
+  "whyNow": {
+    "label": "Pourquoi maintenant",
+    "title": "L'IA rend le logiciel moins cher.",
+    "titleContinuation": "Cela rend le marché du logiciel",
+    "titleEmphasis": "plus grand.",
+    "subtitle": "Le paradoxe de Jevons : quand quelque chose devient considérablement plus efficace, la consommation ne baisse pas — elle se multiplie. Le logiciel est le prochain.",
+    "paragraph1": "Quand le coût de création d'une entreprise logicielle passe de 500 000 € à 5 000 €, des millions d'équipes qui ne pouvaient pas se permettre de construire avant, construiront. Chacune d'entre elles a besoin d'une infrastructure de qualité production. Chacune a besoin de quelqu'un capable de prendre une décision d'architecture qui tiendra encore dans dix-huit mois.",
+    "paragraph2Start": "L'IA gère le volume d'implémentation. Les ingénieurs humains — ceux qui ont vu ce qui casse à l'échelle — deviennent",
+    "paragraph2Emphasis": "plus",
+    "paragraph2End": "précieux, pas moins. Nous avons construit Unio Lab pour exactement ce moment : le jugement d'ingénierie senior, livré à la vitesse qu'un marché post-IA exige."
+  },
+  "portfolio": {
+    "label": "Nos réalisations",
+    "title": "Voici à quoi ressemble la prochaine génération d'entreprises logicielles.",
+    "description": "Des petites équipes. Des spécifications précises. Des plateformes en production livrées en quelques semaines. Chaque produit ci-dessous a été construit en utilisant notre cycle de vie complet : architecture humaine, implémentation augmentée par l'IA, vérification humaine, déployé en production.",
+    "dativo": {
+      "tag": "Conformité Data Act · UE",
+      "title": "Dativo",
+      "description": "Plateforme opérationnelle pour les fabricants de produits connectés afin de se conformer au EU Data Act. Registre d'équipements avec appariement intelligent, cartographie automatisée des données, portail client en libre-service, moteur de traitement avec suivi SLA, classification des secrets commerciaux et piste d'audit de conformité. Open-core — Community Edition sur GitHub, Commercial Edition pour l'entreprise.",
+      "teamLine": "Spécifié, construit et livré par une équipe de 2 personnes en quelques semaines."
+    },
+    "filahti": {
+      "tag": "Conseil agricole · Tunisie",
+      "title": "Filahti",
+      "description": "Plateforme numérique connectant les agriculteurs tunisiens avec des experts agricoles vérifiés, des agents de vulgarisation gouvernementaux et des fournisseurs d'intrants certifiés. Bot WhatsApp hybride et application mobile compagnon avec consultations à crédit, diagnostics assistés par IA, prescriptions numériques et réservation de visites sur site — en arabe tunisien, arabe standard moderne et français.",
+      "teamLine": "Spécifié et construit par une équipe de 2 personnes. Lancement 2026.",
+      "linkLabel": "Explorer la spécification →"
+    }
+  },
+  "capabilities": {
+    "label": "Pourquoi Unio Lab",
+    "title": "Ce qui fait que ça fonctionne",
+    "items": {
+      "architecture": {
+        "title": "Architecture humaine",
+        "description": "Chaque système commence par une spécification rédigée par un ingénieur senior. L'IA implémente conformément."
+      },
+      "verified": {
+        "title": "Vérifié, pas présumé fiable",
+        "description": "Le code généré par l'IA est validé par rapport à sa spécification avant d'être livré. Toujours."
+      },
+      "shipped": {
+        "title": "Livré en semaines",
+        "description": "Non pas parce que des raccourcis ont été pris. Parce que la spécification élimine les reprises."
+      },
+      "ownership": {
+        "title": "Vous possédez tout",
+        "description": "Code source, spécifications, configuration agent. Pas de verrouillage."
+      }
+    }
+  },
+  "cta": {
+    "title": "Vous avez un système qui nécessite de l'ingénierie ?",
+    "description": "Décrivez le problème. Nous évaluerons si c'est adapté à la livraison pilotée par spécification et nous le cadrerons en une semaine. Si ce n'est pas adapté à notre méthodologie, nous vous le dirons.",
+    "descriptionShort": "Décrivez le problème. Nous évaluerons si c'est adapté à la livraison pilotée par spécification et nous le cadrerons en une semaine.",
+    "button": "Démarrer une conversation"
+  },
+  "footer": {
+    "tagline": "Laboratoire produit piloté par spécification. Allemagne, France, Tunisie.",
+    "work": "Réalisations",
+    "company": "Entreprise",
+    "openSource": "Open Source",
+    "dativo": "Plateforme Dativo",
+    "filahti": "Plateforme Filahti",
+    "unioApp": "App Unio",
+    "about": "À propos",
+    "contact": "Contact",
+    "imprint": "Mentions légales",
+    "privacy": "Confidentialité",
+    "dativoGithub": "Dativo sur GitHub",
+    "unioGithub": "Unio Lab GitHub",
+    "copyright": "© {year} Unio Lab. Tous droits réservés.",
+    "bottomTagline": "Laboratoire produit piloté par spécification."
+  },
+  "contactForm": {
+    "nameLabel": "Nom",
+    "emailLabel": "Email",
+    "companyLabel": "Entreprise",
+    "messageLabel": "Décrivez le problème ou le système dont vous avez besoin",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "vous@entreprise.com",
+    "companyPlaceholder": "Le nom de votre entreprise",
+    "messagePlaceholder": "Décrivez le produit, la plateforme ou le système dont vous avez besoin. Incluez toute contrainte comme le délai, le budget ou les préférences techniques.",
+    "submit": "Envoyer le message",
+    "submitting": "Envoi en cours...",
+    "required": "*",
+    "privacyConsent": "En soumettant ce formulaire, vous acceptez notre <link>politique de confidentialité</link>.",
+    "successTitle": "Merci de nous avoir contactés",
+    "successMessage": "Nous examinerons votre message et vous répondrons dans un délai d'un jour ouvrable.",
+    "successAction": "Envoyer un autre message"
+  },
+  "cookie": {
+    "message": "Nous utilisons des cookies pour comprendre comment les visiteurs interagissent avec notre site.",
+    "privacyLink": "Politique de confidentialité",
+    "decline": "Refuser",
+    "accept": "Accepter"
+  }
+}

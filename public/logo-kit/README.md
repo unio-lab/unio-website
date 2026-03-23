@@ -1,4 +1,4 @@
-# UNIO Lab Logo Kit
+# Unio Lab Logo Kit
 
 Brand color: **Navy #022A5A** · Dark background: **#0A0F1A**
 

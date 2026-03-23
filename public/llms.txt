@@ -1,8 +1,8 @@
-# UNIO Lab
+# Unio Lab
 
-> UNIO Lab is a spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks. Based in Germany, France, and Tunisia.
+> Unio Lab is a spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks. Based in Germany, France, and Tunisia.
 
-UNIO Lab engineers production software platforms using a methodology called Spec → Agent → Ship. Human-authored specifications are the source of truth. AI agents are the implementation layer. Human engineers govern every architectural and quality decision. The result: production platforms with the architectural rigor of a much larger organization.
+Unio Lab engineers production software platforms using a methodology called Spec → Agent → Ship. Human-authored specifications are the source of truth. AI agents are the implementation layer. Human engineers govern every architectural and quality decision. The result: production platforms with the architectural rigor of a much larger organization.
 
 Current products include Dativo (EU Data Act compliance for connected product manufacturers, open-core on GitHub) and Filahti (agricultural advisory platform for Tunisian farmers via WhatsApp).
 
@@ -21,7 +21,7 @@ Current products include Dativo (EU Data Act compliance for connected product ma
 ## Open Source
 
 - [Dativo on GitHub](https://github.com/unio-lab/dativo): Source code and documentation
-- [UNIO Lab GitHub](https://github.com/unio-lab): Organization repositories
+- [Unio Lab GitHub](https://github.com/unio-lab): Organization repositories
 
 ## Legal
 

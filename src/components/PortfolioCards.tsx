@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import Container from "./Container";
 import SectionHeader from "./SectionHeader";
 import Button from "./Button";
@@ -6,51 +9,40 @@ interface PortfolioLink {
   label: string;
   href: string;
   external?: boolean;
-  disabled?: boolean;
 }
-
-interface PortfolioItem {
-  tag: string;
-  title: string;
-  description: string;
-  teamLine?: string;
-  links: PortfolioLink[];
-}
-
-const portfolioItems: PortfolioItem[] = [
-  {
-    tag: "Data Act Compliance · EU",
-    title: "Dativo",
-    description:
-      "Operational platform for connected product manufacturers to comply with the EU Data Act. Equipment registry with smart matching, automated data mapping, customer self-service portal, fulfillment engine with SLA tracking, trade secret classification, and compliance audit trail. Open-core — Community Edition on GitHub, Commercial Edition for enterprise.",
-    teamLine: "Specified, built, and shipped by a 2-person team in weeks.",
-    links: [
-      { label: "dativo.dev →", href: "https://dativo.dev", external: true },
-      {
-        label: "GitHub →",
-        href: "https://github.com/unio-lab/dativo",
-        external: true,
-      },
-    ],
-  },
-  {
-    tag: "Agricultural Advisory · Tunisia",
-    title: "Filahti",
-    description:
-      "Digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers. Hybrid WhatsApp bot and companion mobile app with credit-based consultations, AI-assisted diagnostics, digital prescriptions, and on-site visit booking — in Tunisian Arabic, Modern Standard Arabic, and French.",
-    teamLine: "Specified and built by a 2-person team. Launching 2026.",
-    links: [{ label: "Coming Soon", href: "#", disabled: true }],
-  },
-];
 
 export default function PortfolioCards() {
+  const t = useTranslations("portfolio");
+
+  const portfolioItems = [
+    {
+      tag: t("dativo.tag"),
+      title: t("dativo.title"),
+      description: t("dativo.description"),
+      teamLine: t("dativo.teamLine"),
+      links: [
+        { label: "dativo.dev →", href: "https://dativo.dev", external: true },
+        { label: "GitHub →", href: "https://github.com/unio-lab/dativo", external: true },
+      ] as PortfolioLink[],
+    },
+    {
+      tag: t("filahti.tag"),
+      title: t("filahti.title"),
+      description: t("filahti.description"),
+      teamLine: t("filahti.teamLine"),
+      links: [
+        { label: t("filahti.linkLabel"), href: "https://app.unio-lab.com/demo", external: true },
+      ] as PortfolioLink[],
+    },
+  ];
+
   return (
     <section className="py-20 sm:py-24">
       <Container>
         <SectionHeader
-          label="Our Work"
-          title="This is what the next generation of software companies looks like."
-          description="Small teams. Precise specifications. Production platforms shipped in weeks. Every product below was built using our full lifecycle: human architecture, AI-augmented implementation, human verification, deployed in production."
+          label={t("label")}
+          title={t("title")}
+          description={t("description")}
         />
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
@@ -74,26 +66,17 @@ export default function PortfolioCards() {
                 </p>
               )}
               <div className="mt-6 flex flex-wrap gap-4">
-                {item.links.map((link) =>
-                  link.disabled ? (
-                    <span
-                      key={link.label}
-                      className="text-sm font-medium text-grey-accent/50"
-                    >
-                      {link.label}
-                    </span>
-                  ) : (
-                    <Button
-                      key={link.label}
-                      href={link.href}
-                      variant="outline"
-                      external={link.external}
-                      className="text-sm px-4 py-2"
-                    >
-                      {link.label}
-                    </Button>
-                  )
-                )}
+                {item.links.map((link) => (
+                  <Button
+                    key={link.label}
+                    href={link.href}
+                    variant="outline"
+                    external={link.external}
+                    className="text-sm px-4 py-2"
+                  >
+                    {link.label}
+                  </Button>
+                ))}
               </div>
             </div>
           ))}

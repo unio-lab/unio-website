@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "siteTitle": "Unio Lab — Laboratoire produit piloté par spécification",
+    "siteDescription": "Laboratoire produit piloté par spécification. Nous rédigeons des spécifications, des agents IA implémentent sous contrat, les ingénieurs humains gouvernent chaque décision. Des plateformes en production livrées en quelques semaines.",
+    "work": {
+      "title": "Nos réalisations",
+      "description": "Des petites équipes. Des spécifications précises. Des plateformes en production livrées en quelques semaines. La preuve que l'ingénierie pilotée par spécification et augmentée par l'IA fonctionne à l'échelle."
+    },
+    "about": {
+      "title": "À propos",
+      "description": "Nous avons parié sur le paradoxe de Jevons : l'IA rendant le logiciel moins cher ne réduit pas le marché de la rigueur d'ingénierie — elle l'étend. Unio Lab est construit pour exactement ce moment."
+    },
+    "philosophy": {
+      "title": "Philosophie",
+      "description": "Le paradoxe de Jevons et la pénurie d'ingénieurs à venir. L'IA ne réduira pas la demande d'ingénieurs logiciels. Elle créera une pénurie."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Parlez-nous du système dont vous avez besoin. Nous évaluerons l'adéquation, cadrerons le travail de spécification et vous donnerons un calendrier clair et un prix fixe en une semaine."
+    },
+    "imprint": {
+      "title": "Mentions légales",
+      "description": "Mentions légales (Impressum) de Unio Lab conformément à la loi allemande."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "description": "Politique de confidentialité de Unio Lab. Comment nous collectons, utilisons et protégeons vos données personnelles conformément au RGPD."
+    }
+  },
+  "work": {
+    "label": "Nos réalisations",
+    "title": "Voici à quoi ressemble la prochaine génération d'entreprises logicielles.",
+    "description": "Des petites équipes. Des spécifications précises. Des plateformes en production livrées en quelques semaines. Ce ne sont pas des démos ni des prototypes — c'est la preuve que l'ingénierie pilotée par spécification et augmentée par l'IA fonctionne à une échelle qui nécessitait autrefois des organisations dix fois notre taille.",
+    "subdescription": "Chaque produit ci-dessous a été construit en utilisant notre cycle de vie complet : architecture humaine, implémentation augmentée par l'IA, vérification humaine, déployé en production.",
+    "dativo": {
+      "tag": "Conformité Data Act · UE",
+      "title": "Dativo",
+      "problem": "Le EU Data Act (Règlement 2023/2854) est en vigueur depuis septembre 2025. Les fabricants de produits connectés doivent partager les données générées par les produits avec les clients et les tiers autorisés — sous peine de sanctions allant jusqu'à 4 % du chiffre d'affaires annuel mondial. La plupart des fabricants ont des données d'équipement dispersées dans des silos avec des identifiants conflictuels, aucune couche d'accès client et aucune piste d'audit.",
+      "solution": "Dativo est une plateforme de conformité opérationnelle pour les fabricants de produits connectés face au EU Data Act. Registre d'équipements, appariement intelligent des données, portail client en libre-service, moteur de traitement avec suivi SLA, classification des secrets commerciaux, piste d'audit de conformité. Open-core — Community Edition sur GitHub, Commercial Edition pour l'entreprise.",
+      "howBuilt": "Construit par une équipe de deux personnes en quelques semaines. Voici ce qui devient possible quand l'IA gère le volume d'implémentation et que des ingénieurs seniors gouvernent chaque décision d'architecture. L'économie de la construction d'une plateforme comme Dativo a radicalement changé. L'exigence de ce qu'elle doit faire, non.",
+      "problemHeading": "Le problème",
+      "solutionHeading": "Ce que nous avons construit",
+      "howBuiltHeading": "Comment nous l'avons construit"
+    },
+    "filahti": {
+      "tag": "Conseil agricole · Tunisie",
+      "title": "Filahti",
+      "problem": "La Tunisie compte 516 000 exploitations agricoles, 87 % de moins de 20 hectares. Les services publics de vulgarisation agricole sont fonctionnellement en panne — les bureaux ne peuvent pas couvrir les frais de carburant pour les visites de terrain. Aucun marché privé de conseil n'existe. Les revendeurs de pesticides comblent le vide, diagnostiquant et vendant avec un conflit d'intérêts et des conditions de crédit atteignant 50 % d'intérêt. Les conditions climatiques changent rapidement, avec une sécheresse prolongée depuis 2017, et les connaissances agricoles héritées ne suffisent plus.",
+      "solution": "Filahti connecte les agriculteurs tunisiens avec des experts agricoles vérifiés, des agents de vulgarisation gouvernementaux et des fournisseurs d'intrants certifiés. Bot WhatsApp hybride et application mobile compagnon. Consultations à crédit, diagnostics assistés par IA, prescriptions numériques, réservation de visites sur site — en arabe tunisien, arabe standard moderne et français.",
+      "howBuilt": "Un produit qui aurait demandé à une équipe financée de huit personnes un an à construire. Spécifié et livré par deux ingénieurs. Le paradoxe de Jevons s'applique ici aussi : l'IA rendant les logiciels agricoles viables pour des marchés de niche signifie que les agriculteurs qui avaient le plus besoin d'expertise peuvent désormais y accéder. Lancement 2026.",
+      "specHeading": "Ce que la spécification regarde",
+      "specText": "La spécification complète de Filahti — architecture système, exigences fonctionnelles, plan d'implémentation, résultats de tests et documentation de livraison — est disponible sous forme de parcours en direct. Vous pouvez lire les mêmes documents que nos ingénieurs ont rédigés, voir les commentaires des parties prenantes et explorer chaque phase du cycle de livraison. C'est ce que chaque engagement Unio Lab produit.",
+      "specLink": "Explorer la spécification complète →"
+    },
+    "whatsNext": {
+      "title": "Et après",
+      "description": "Nous sommes toujours en train de cadrer le prochain produit. Si vous avez un problème qui nécessite une plateforme — pas juste une fonctionnalité — nous devrions en parler."
+    }
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Nous avons parié sur un paradoxe.",
+    "story": {
+      "p1": "Il y a sept ans, Unio Lab était un cabinet de conseil cloud-native — Kubernetes, CI/CD, architecture événementielle. Nous étions bons. Mais nous observions quelque chose se passer sur le marché que la plupart des entreprises d'ingénierie comprenaient à l'envers.",
+      "p2": "L'histoire courante était : l'IA va automatiser le logiciel, donc les ingénieurs sont finis. Nous pensions le contraire. Nous pensions que le paradoxe de Jevons s'appliquerait — quand quelque chose devient considérablement plus efficace, la consommation augmente plus vite que les économies d'efficacité. Rendez bon marché la création d'une entreprise logicielle et des millions d'entreprises logicielles de plus se créent. Chacune de ces entreprises a besoin d'infrastructure qui passe à l'échelle. Chacune a éventuellement besoin d'un humain qui comprend ce qui casse à cinq cents utilisateurs alors que ça marchait bien à cinquante.",
+      "p3Start": "Alors nous avons pivoté — pas loin de l'ingénierie, mais vers la partie qui compte le plus quand l'IA gère le volume d'implémentation : ",
+      "p3Emphasis": "spécification, architecture et vérification.",
+      "p3End": " Les décisions qui déterminent si un système tiendra dans dix-huit mois sont encore prises par des humains avec une expertise durement acquise. Nous avons construit un laboratoire autour de ces décisions exactement.",
+      "p4": "Aujourd'hui, Unio Lab opère depuis trois sites. Chaque produit que nous construisons passe par le même cycle de vie : spécification humaine comme source de vérité, agents IA gérant l'implémentation à l'échelle, ingénieurs humains prenant chaque décision d'architecture et chaque contrôle qualité. Le résultat est un logiciel en production livré en quelques semaines avec la rigueur d'une équipe dix fois notre taille.",
+      "p5": "Dativo et Filahti en sont la preuve. Les deux construits par une équipe de deux. Les deux sont des plateformes en production. Les deux livrés en quelques semaines. Nous ne décrivons pas une méthodologie — nous l'appliquons."
+    },
+    "principles": {
+      "title": "Comment nous travaillons",
+      "specs": {
+        "title": "Les spécifications sont le produit",
+        "description": "Nous ne livrons pas du code — nous livrons des systèmes spécifiés. La suite de spécifications est le livrable principal. Le code est un artefact généré qui sert la spec. Quand la spec change, le code se régénère. C'est ainsi que nous maintenons l'intégrité architecturale à chaque itération."
+      },
+      "humanAi": {
+        "title": "Architecture humaine, implémentation agentique",
+        "description": "Chaque décision d'architecture est prise par un ingénieur avec une expertise du domaine. Les agents IA gèrent le volume d'implémentation sous des contrats définis par la spec. Nous ne déléguons pas la réflexion à l'IA — nous déléguons la frappe."
+      },
+      "verifiable": {
+        "title": "Vérifiable, pas présumé fiable",
+        "description": "Nous ne vous demandons pas de faire confiance aux sorties générées par l'IA. Nous vérifions chaque composant par rapport à sa spécification — automatiquement, continuellement, avant toute livraison. Tests de contrat, tests d'acceptation et invariants architecturaux sont des portes qualité non négociables."
+      },
+      "open": {
+        "title": "Ouvert par défaut",
+        "description": "Le cœur de Dativo est open source. Nos spécifications, configurations d'agents et décisions architecturales sont transparentes. Nous croyons que la meilleure façon de prouver la qualité d'ingénierie est de la rendre inspectable."
+      }
+    },
+    "locations": {
+      "title": "Où nous sommes",
+      "mg": {
+        "title": "Mönchengladbach",
+        "description": "Direction de l'ingénierie et architecture produit. Heures de bureau allemandes, expertise en conformité UE."
+      },
+      "paris": {
+        "title": "Paris",
+        "description": "Stratégie produit et travail orienté client. Marché français et partenariats européens."
+      },
+      "tunis": {
+        "title": "Tunis",
+        "description": "Développement piloté par spécification et opérations de livraison. Livraison continue à travers les fuseaux horaires."
+      }
+    }
+  },
+  "philosophy": {
+    "label": "Point de vue",
+    "title": "Le paradoxe de Jevons et la pénurie d'ingénieurs à venir",
+    "subtitle": "L'IA ne réduira pas la demande d'ingénieurs logiciels. Elle créera une pénurie. Voici pourquoi nous y croyons — et pourquoi cela façonne tout ce que nous construisons chez Unio Lab.",
+    "paradox": {
+      "title": "Le paradoxe",
+      "p1": "En 1865, l'économiste William Stanley Jevons a observé quelque chose de contre-intuitif : à mesure que les machines à vapeur devenaient plus efficaces, la consommation de charbon augmentait, pas l'inverse. Des machines plus efficaces n'ont pas réduit la demande pour la ressource — elles ont rendu la ressource économiquement viable pour plus d'applications, ce qui a multiplié la consommation plus vite que l'efficacité ne pouvait l'économiser.",
+      "p2": "C'est le paradoxe de Jevons. Et il s'applique, avec une régularité frappante, chaque fois qu'une technologie réduit considérablement le coût d'entrée sur un marché."
+    },
+    "pattern": {
+      "title": "Le schéma est plus ancien que le logiciel",
+      "p1": "Quand les smartphones ont mis une caméra de qualité professionnelle dans chaque poche, le marché mondial des opérateurs caméra et monteurs professionnels a grandi. Quand Excel a automatisé les fonctions comptables, la demande de comptables et d'analystes a augmenté. Quand YouTube a fait s'effondrer l'économie de la télévision — de 5 M€ par épisode à un homme nettoyant des outils rouillés dans son garage avec 200K abonnés — il a créé un énorme nouveau marché pour les producteurs, monteurs et réalisateurs vidéo.",
+      "p2": "La même logique s'applique à chaque fois. Les chefs qui publient leurs recettes gratuitement en ligne trouvent leurs restaurants complets. Les consultants qui donnent leurs meilleures idées dans des livres sont embauchés à des tarifs plus élevés. Rendre quelque chose bon marché ne détruit pas le marché. Cela l'étend.",
+      "examples": {
+        "excel": {
+          "era": "Excel · 1985",
+          "automated": "A automatisé",
+          "thing": "les fonctions comptables de base",
+          "grew": "a augmenté",
+          "result": "la demande de comptables"
+        },
+        "camera": {
+          "era": "Smartphones · 2007",
+          "automated": "A démocratisé",
+          "thing": "la photographie",
+          "grew": "a augmenté",
+          "result": "la demande d'opérateurs professionnels"
+        },
+        "youtube": {
+          "era": "YouTube · 2005",
+          "automated": "A effondré",
+          "thing": "les coûts de production TV",
+          "grew": "a augmenté",
+          "result": "la demande de talents en production vidéo"
+        }
+      }
+    },
+    "software": {
+      "title": "Le logiciel est le prochain",
+      "p1": "Ce qui coûtait 500 000 € et six mois d'une équipe d'ingénierie dédiée coûte maintenant 5 000 € et deux semaines. Cet effondrement des coûts signifie que le nombre d'entreprises logicielles viables ne reste pas stable — il croît de plusieurs ordres de grandeur. Les idées qui nécessitaient auparavant 100 000 utilisateurs pour atteindre le seuil de rentabilité n'en ont plus besoin que de 1 000. Le marché total adressable du logiciel s'étend plus vite que l'IA ne peut remplacer les ingénieurs en son sein.",
+      "p2": "Chacune de ces nouvelles entreprises — chacun des millions qui construiront désormais ce qu'ils ne pouvaient pas se permettre de construire avant — rencontre éventuellement le même problème : la base de code qui fonctionnait à cinquante utilisateurs casse à cinq cents. Le schéma qui avait du sens la deuxième semaine crée une crise de migration au huitième mois. L'architecture qui a été livrée rapidement devient le problème qui empêche la prochaine fonctionnalité d'être livrée.",
+      "p3": "Ce n'est pas un problème que les agents IA résolvent. C'est un problème que les ingénieurs seniors résolvent. Et il y a maintenant bien plus d'entreprises qui ont besoin de cette expertise qu'il n'y a d'ingénieurs qui la possèdent."
+    },
+    "whyShapes": {
+      "title": "Pourquoi cela façonne notre façon de construire",
+      "p1": "Chez Unio Lab, nous croyons que la valeur de la rigueur d'ingénierie ne baisse pas quand l'IA réduit les coûts d'implémentation — elle monte. Quand l'IA gère le volume, ce qui reste rare est le jugement humain qui détermine si un système tiendra à l'échelle.",
+      "p2": "C'est pourquoi notre méthodologie place la spécification en premier : une définition précise et lisible par machine du système avant qu'une seule ligne de code ne soit écrite. C'est pourquoi nos ingénieurs ont sept ans ou plus d'expérience en architecture cloud-native et ingénierie de plateformes industrielles. Et c'est pourquoi nous vérifions chaque sortie générée par l'IA par rapport à un contrat avant qu'elle ne soit livrée.",
+      "p3": "Nous n'utilisons pas l'IA pour remplacer l'ingénierie. Nous l'utilisons pour rendre les parties de l'ingénierie qui comptent le plus accessibles aux équipes qui en ont besoin maintenant — rapidement, rigoureusement, sans le surcoût d'une agence de vingt personnes.",
+      "p4": "Le paradoxe de Jevons nous a déjà surpris. Nous pensons qu'il est sur le point de surprendre l'industrie du logiciel. Nous avons construit Unio Lab pour être du bon côté."
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Démarrer une conversation",
+    "description": "Parlez-nous du système dont vous avez besoin. Nous évaluerons l'adéquation, cadrerons le travail de spécification et vous donnerons un calendrier clair et un prix fixe en une semaine.",
+    "emailLabel": "Vous préférez l'email ? Écrivez-nous à",
+    "germany": "Allemagne",
+    "france": "France",
+    "tunisia": "Tunisie"
+  },
+  "imprint": {
+    "title": "Mentions légales",
+    "legalNote": "Angaben gemäß § 5 TMG",
+    "company": "Entreprise",
+    "contact": "Contact",
+    "register": "Registre du commerce",
+    "vat": "Numéro de TVA",
+    "director": "Gérant",
+    "dispute": "Résolution des litiges",
+    "companyName": "Unio Lab SARL",
+    "companyAddress": "Tunis, Tunisie",
+    "emailLabel": "Email",
+    "phone": "Téléphone : +49 2161 123 4567",
+    "registerLocation": "Enregistré à : Tunis, Tunisie",
+    "registerNumber": "Numéro d'enregistrement : 1641895Z",
+    "directorName": "Haroun Afdhal",
+    "disputeText": "La Commission européenne fournit une plateforme de résolution des litiges en ligne (ODR) : <link>https://ec.europa.eu/consumers/odr</link>. Nous ne sommes pas disposés ni obligés de participer à des procédures de résolution des litiges devant un conseil d'arbitrage des consommateurs."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : mars 2026",
+    "controller": {
+      "title": "1. Responsable du traitement",
+      "text": "Le responsable du traitement des données pour ce site web est Unio Lab SARL, Tunis, Tunisie. Pour les coordonnées, veuillez consulter notre <link>page mentions légales</link>."
+    },
+    "dataCollected": {
+      "title": "2. Données que nous collectons",
+      "intro": "Lorsque vous visitez notre site web, nous pouvons collecter les données suivantes :",
+      "contactForm": "Soumissions du formulaire de contact :",
+      "contactFormDetail": "Nom, adresse email, nom de l'entreprise et contenu du message lorsque vous soumettez notre formulaire de contact.",
+      "technicalData": "Données techniques :",
+      "technicalDataDetail": "Adresse IP, type de navigateur, système d'exploitation et pages visitées — collectées automatiquement par notre hébergeur à des fins de sécurité et de performance."
+    },
+    "purpose": {
+      "title": "3. Finalité et base juridique",
+      "intro": "Nous traitons vos données aux fins suivantes :",
+      "inquiries": "Pour répondre à vos demandes (Art. 6(1)(b) RGPD — exécution du contrat / mesures précontractuelles).",
+      "security": "Pour assurer la sécurité et la disponibilité de notre site web (Art. 6(1)(f) RGPD — intérêt légitime)."
+    },
+    "sharing": {
+      "title": "4. Partage des données",
+      "text": "Nous ne vendons pas vos données personnelles. Nous pouvons partager des données avec des prestataires de services qui nous aident à exploiter ce site web (par ex. hébergeurs), liés par des accords de traitement des données."
+    },
+    "retention": {
+      "title": "5. Conservation des données",
+      "text": "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire pour la finalité pour laquelle elles ont été collectées, ou comme requis par la loi. Les soumissions du formulaire de contact sont conservées jusqu'à 12 mois."
+    },
+    "rights": {
+      "title": "6. Vos droits",
+      "text": "En vertu du RGPD, vous avez le droit d'accéder, rectifier, effacer, limiter le traitement, à la portabilité des données et de vous opposer au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à <email>privacy@unio-lab.com</email>."
+    },
+    "cookies": {
+      "title": "7. Cookies",
+      "text": "Ce site web utilise uniquement des cookies techniquement nécessaires. Nous n'utilisons pas de cookies de suivi ni de cookies publicitaires tiers."
+    },
+    "changes": {
+      "title": "8. Modifications de cette politique",
+      "text": "Nous nous réservons le droit de mettre à jour cette politique de confidentialité à tout moment. Les modifications seront publiées sur cette page avec une date de révision mise à jour."
+    }
+  }
+}

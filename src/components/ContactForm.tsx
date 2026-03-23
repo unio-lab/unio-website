@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 interface FormData {
   name: string;
@@ -22,6 +24,7 @@ export default function ContactForm() {
     "idle" | "submitting" | "success" | "error"
   >("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const t = useTranslations("contactForm");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -63,17 +66,16 @@ export default function ContactForm() {
     return (
       <div className="rounded-2xl border border-green-200 bg-green-50 p-8 text-center">
         <h3 className="font-heading text-lg font-semibold text-green-900">
-          Thank you for reaching out
+          {t("successTitle")}
         </h3>
         <p className="mt-2 text-sm text-green-700">
-          We&apos;ll review your message and get back to you within one business
-          day.
+          {t("successMessage")}
         </p>
         <button
           onClick={() => setStatus("idle")}
           className="mt-4 text-sm text-green-600 underline hover:text-green-800"
         >
-          Send another message
+          {t("successAction")}
         </button>
       </div>
     );
@@ -91,7 +93,7 @@ export default function ContactForm() {
         {/* Name */}
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-navy">
-            Name <span className="text-red-500">*</span>
+            {t("nameLabel")} <span className="text-red-500">{t("required")}</span>
           </label>
           <input
             type="text"
@@ -100,7 +102,7 @@ export default function ContactForm() {
             required
             value={formData.name}
             onChange={handleChange}
-            placeholder="Your name"
+            placeholder={t("namePlaceholder")}
             className="mt-2 block w-full rounded-md border border-navy/20 bg-white px-4 py-2.5 text-sm text-navy placeholder:text-grey-accent/50 focus:border-navy focus:outline-none focus:ring-1 focus:ring-navy"
           />
         </div>
@@ -111,7 +113,7 @@ export default function ContactForm() {
             htmlFor="email"
             className="block text-sm font-medium text-navy"
           >
-            Email <span className="text-red-500">*</span>
+            {t("emailLabel")} <span className="text-red-500">{t("required")}</span>
           </label>
           <input
             type="email"
@@ -120,7 +122,7 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            placeholder="you@company.com"
+            placeholder={t("emailPlaceholder")}
             className="mt-2 block w-full rounded-md border border-navy/20 bg-white px-4 py-2.5 text-sm text-navy placeholder:text-grey-accent/50 focus:border-navy focus:outline-none focus:ring-1 focus:ring-navy"
           />
         </div>
@@ -131,7 +133,7 @@ export default function ContactForm() {
             htmlFor="company"
             className="block text-sm font-medium text-navy"
           >
-            Company
+            {t("companyLabel")}
           </label>
           <input
             type="text"
@@ -139,7 +141,7 @@ export default function ContactForm() {
             name="company"
             value={formData.company}
             onChange={handleChange}
-            placeholder="Your company name"
+            placeholder={t("companyPlaceholder")}
             className="mt-2 block w-full rounded-md border border-navy/20 bg-white px-4 py-2.5 text-sm text-navy placeholder:text-grey-accent/50 focus:border-navy focus:outline-none focus:ring-1 focus:ring-navy"
           />
         </div>
@@ -150,7 +152,7 @@ export default function ContactForm() {
             htmlFor="message"
             className="block text-sm font-medium text-navy"
           >
-            Describe the problem or system you need <span className="text-red-500">*</span>
+            {t("messageLabel")} <span className="text-red-500">{t("required")}</span>
           </label>
           <textarea
             id="message"
@@ -159,7 +161,7 @@ export default function ContactForm() {
             rows={5}
             value={formData.message}
             onChange={handleChange}
-            placeholder="Describe the product, platform, or system you need. Include any constraints like timeline, budget, or tech preferences."
+            placeholder={t("messagePlaceholder")}
             className="mt-2 block w-full rounded-md border border-navy/20 bg-white px-4 py-2.5 text-sm text-navy placeholder:text-grey-accent/50 focus:border-navy focus:outline-none focus:ring-1 focus:ring-navy"
           />
         </div>
@@ -170,15 +172,17 @@ export default function ContactForm() {
           disabled={status === "submitting"}
           className="w-full rounded-md bg-navy px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-navy-mid focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
         >
-          {status === "submitting" ? "Sending..." : "Send Message"}
+          {status === "submitting" ? t("submitting") : t("submit")}
         </button>
 
         <p className="text-center text-xs text-grey-accent">
-          By submitting this form, you agree to our{" "}
-          <a href="/privacy" className="underline hover:text-navy">
-            privacy policy
-          </a>
-          .
+          {t.rich("privacyConsent", {
+            link: (chunks) => (
+              <Link href="/privacy" className="underline hover:text-navy">
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
       </form>
     </div>

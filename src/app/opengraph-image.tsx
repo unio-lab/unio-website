@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "UNIO Lab — Spec-Driven Product Lab";
+export const alt = "Unio Lab — Spec-Driven Product Lab";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -29,7 +29,7 @@ export default async function Image() {
             marginBottom: "24px",
           }}
         >
-          UNIO Lab
+          Unio Lab
         </div>
         <div
           style={{

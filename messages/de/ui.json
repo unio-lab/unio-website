@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "work": "Projekte",
+    "about": "Über uns",
+    "philosophy": "Philosophie",
+    "contact": "Kontakt",
+    "cta": "Gespräch starten"
+  },
+  "hero": {
+    "label": "Spezifikationsgetriebenes Produktlabor",
+    "title": "Software aus Spezifikation entwickelt. Von KI implementiert. Vom Menschen gesteuert.",
+    "tagline": "Weil KI, die Software günstiger macht, den Markt für Sorgfalt nicht schrumpft — sondern erweitert.",
+    "description": "Wir verfassen präzise, maschinenlesbare Spezifikationen für jedes System, das wir bauen. KI-Agenten implementieren unter Vertrag. Menschliche Ingenieure verantworten jede Architekturentscheidung und Qualitätskontrolle. Das Ergebnis: Produktionsplattformen in Wochen ausgeliefert — mit der Sorgfalt eines zehnmal größeren Teams.",
+    "ctaPrimary": "Unsere Methodik entdecken",
+    "ctaSecondary": "Unser Portfolio ansehen"
+  },
+  "methodology": {
+    "label": "Unser Engineering-Lebenszyklus",
+    "title": "Spec → Agent → Ship",
+    "description": "Jedes Produkt, das wir bauen, durchläuft denselben Fünf-Phasen-Lebenszyklus. Spezifikationen sind die Wahrheitsquelle. KI-Agenten sind die Ausführungsschicht. Menschliche Ingenieure steuern jede Entscheidung. Code ist ein generiertes Artefakt — die Spec wird ausgeliefert.",
+    "whoLabel": "Wer",
+    "artifactsLabel": "Artefakte",
+    "exampleLabel": "Beispiel",
+    "phases": {
+      "specify": {
+        "number": "01",
+        "phase": "SPEZIFIZIEREN",
+        "title": "Menschlich verfasste Spezifikation als Wahrheitsquelle",
+        "description": "Jedes Engagement beginnt mit der Spezifikation, nicht mit Code. Wir zerlegen Ihr Problem in strukturierte, maschinenlesbare Spezifikationen: Systemarchitektur, API-Verträge, Datenmodelle, Akzeptanzkriterien und Verhaltensinvarianten. Diese Spezifikationen sind für Menschen lesbar und für Agenten ausführbar. Die Spec IST die Produktdefinition.",
+        "who": "Senior-Ingenieur (Mensch)",
+        "artifacts": "Produktspezifikation · Agentenkonfiguration",
+        "demoLabel": "Eine echte Spezifikation ansehen →"
+      },
+      "plan": {
+        "number": "02",
+        "phase": "PLANEN",
+        "title": "KI-generierter Implementierungsplan, menschlich validiert",
+        "description": "Die Spezifikation wird an einen KI-Agenten übergeben, der einen detaillierten Implementierungsplan erstellt: Aufgabenaufteilung, Dateistruktur, Abhängigkeitsgraph, Ausführungsreihenfolge. Der menschliche Ingenieur prüft anhand der Spec, korrigiert Architekturentscheidungen und genehmigt. Kein Code wird geschrieben, bis der Plan die menschliche Prüfung bestanden hat.",
+        "who": "KI-Agent → Menschliche Prüfung",
+        "artifacts": "Implementierungsplan",
+        "demoLabel": "Einen echten Implementierungsplan ansehen →"
+      },
+      "build": {
+        "number": "03",
+        "phase": "BAUEN",
+        "title": "Agentische Implementierung mit kontinuierlicher Spec-Validierung",
+        "description": "Der KI-Agent implementiert den genehmigten Plan — generiert Code, Tests und Dokumentation gemäß der Spec. Jede generierte Komponente wird gegen die Spezifikation validiert: Vertragstests prüfen Schnittstellen, Akzeptanzkriterien werden als Tests ausgeführt, architektonische Invarianten werden durch Regeln erzwungen. Der menschliche Ingenieur steuert durch Verfeinerung der Specs, nicht durch Code-Bearbeitung.",
+        "who": "KI-Agent (Primär) · Mensch (Steuerung)",
+        "artifacts": "Build-Bericht",
+        "demoLabel": "Einen echten Build-Bericht ansehen →"
+      },
+      "verify": {
+        "number": "04",
+        "phase": "VERIFIZIEREN",
+        "title": "Agentisches DevOps — autonome Qualitätstore",
+        "description": "CI/CD-Pipelines führen KI-gestützte Qualitätstore aus: Sicherheitsscanning, Abhängigkeitsanalyse, Performance-Benchmarking und Spec-Konformitätsprüfungen. Agenten diagnostizieren Fehler, schlagen Korrekturen vor und führen erneut aus. Menschliche Ingenieure setzen Governance-Regeln und prüfen Eskalationen. Deployment-Entscheidungen werden vom Agenten empfohlen, vom Menschen genehmigt.",
+        "who": "KI-Agenten (Autonom) · Mensch (Governance)",
+        "artifacts": "Verifizierungsbericht",
+        "demoLabel": "Einen echten Verifizierungsbericht ansehen →"
+      },
+      "ship": {
+        "number": "05",
+        "phase": "AUSLIEFERN",
+        "title": "Ausgeliefertes Produkt mit Spec als Dokumentation",
+        "description": "Das Produkt wird mit seiner vollständigen Spezifikationssuite ausgeliefert. Sie erhalten funktionsfähige Software, die komplette Spec-Bibliothek und die Agentenkonfiguration. Wenn Sie das System später ändern müssen, aktualisieren Sie die Spec und regenerieren. Die Spec überlebt den Code. Sie sind nicht von uns abhängig.",
+        "who": "Gemeinsam",
+        "artifacts": "Übergabepaket",
+        "demoLabel": "Ein echtes Übergabepaket ansehen →"
+      }
+    }
+  },
+  "whyNow": {
+    "label": "Warum jetzt",
+    "title": "KI macht Software günstiger.",
+    "titleContinuation": "Das macht den Markt für Software",
+    "titleEmphasis": "größer.",
+    "subtitle": "Das Jevons-Paradoxon: Wenn etwas dramatisch effizienter wird, sinkt der Verbrauch nicht — er vervielfacht sich. Software ist als Nächstes dran.",
+    "paragraph1": "Wenn die Kosten für die Gründung eines Softwareunternehmens von 500.000 € auf 5.000 € sinken, werden Millionen von Teams, die sich vorher keinen Aufbau leisten konnten, bauen. Jedes von ihnen braucht produktionsreife Infrastruktur. Jedes von ihnen braucht jemanden, der eine Architekturentscheidung treffen kann, die auch in achtzehn Monaten noch hält.",
+    "paragraph2Start": "KI erledigt das Implementierungsvolumen. Menschliche Ingenieure — die Art, die gesehen hat, was bei Skalierung bricht — werden",
+    "paragraph2Emphasis": "wertvoller",
+    "paragraph2End": ", nicht weniger. Wir haben Unio Lab genau für diesen Moment gebaut: Senior-Engineering-Urteilsvermögen, geliefert in der Geschwindigkeit, die ein Post-KI-Markt verlangt."
+  },
+  "portfolio": {
+    "label": "Unsere Projekte",
+    "title": "So sieht die nächste Generation von Softwareunternehmen aus.",
+    "description": "Kleine Teams. Präzise Spezifikationen. Produktionsplattformen in Wochen ausgeliefert. Jedes Produkt unten wurde mit unserem vollständigen Lebenszyklus gebaut: menschliche Architektur, KI-unterstützte Implementierung, menschliche Verifizierung, in Produktion deployed.",
+    "dativo": {
+      "tag": "Data Act Compliance · EU",
+      "title": "Dativo",
+      "description": "Operative Plattform für Hersteller vernetzter Produkte zur Einhaltung des EU Data Act. Geräteregister mit intelligentem Matching, automatisierter Datenzuordnung, Kunden-Self-Service-Portal, Fulfillment-Engine mit SLA-Tracking, Geschäftsgeheimnisklassifizierung und Compliance-Audit-Trail. Open-Core — Community Edition auf GitHub, Commercial Edition für Unternehmen.",
+      "teamLine": "Spezifiziert, gebaut und ausgeliefert von einem 2-Personen-Team in Wochen."
+    },
+    "filahti": {
+      "tag": "Landwirtschaftsberatung · Tunesien",
+      "title": "Filahti",
+      "description": "Digitale Plattform, die tunesische Landwirte mit geprüften Agrarexperten, staatlichen Beratungsagenten und zertifizierten Inputlieferanten verbindet. Hybrid-WhatsApp-Bot und Begleit-App mit kreditbasierten Beratungen, KI-gestützter Diagnostik, digitalen Verschreibungen und Vor-Ort-Terminbuchung — auf Tunesisch-Arabisch, Hocharabisch und Französisch.",
+      "teamLine": "Spezifiziert und gebaut von einem 2-Personen-Team. Start 2026.",
+      "linkLabel": "Die Spezifikation erkunden →"
+    }
+  },
+  "capabilities": {
+    "label": "Warum Unio Lab",
+    "title": "Was das Ganze zum Funktionieren bringt",
+    "items": {
+      "architecture": {
+        "title": "Menschliche Architektur",
+        "description": "Jedes System beginnt mit einer von einem Senior-Ingenieur verfassten Spezifikation. KI implementiert dagegen."
+      },
+      "verified": {
+        "title": "Verifiziert, nicht vertraut",
+        "description": "KI-generierter Code wird vor der Auslieferung gegen seine Spezifikation validiert. Immer."
+      },
+      "shipped": {
+        "title": "In Wochen ausgeliefert",
+        "description": "Nicht weil Abkürzungen genommen wurden. Weil Spezifikation Nacharbeit eliminiert."
+      },
+      "ownership": {
+        "title": "Ihnen gehört alles",
+        "description": "Quellcode, Spezifikationen, Agentenkonfiguration. Kein Lock-in."
+      }
+    }
+  },
+  "cta": {
+    "title": "Haben Sie ein System, das Engineering braucht?",
+    "description": "Beschreiben Sie das Problem. Wir prüfen, ob es für spezifikationsgetriebene Lieferung geeignet ist, und erstellen innerhalb einer Woche einen Rahmen. Wenn es nicht zu unserer Methodik passt, sagen wir Ihnen das.",
+    "descriptionShort": "Beschreiben Sie das Problem. Wir prüfen, ob es für spezifikationsgetriebene Lieferung geeignet ist, und erstellen innerhalb einer Woche einen Rahmen.",
+    "button": "Gespräch starten"
+  },
+  "footer": {
+    "tagline": "Spezifikationsgetriebenes Produktlabor. Deutschland, Frankreich, Tunesien.",
+    "work": "Projekte",
+    "company": "Unternehmen",
+    "openSource": "Open Source",
+    "dativo": "Dativo-Plattform",
+    "filahti": "Filahti-Plattform",
+    "unioApp": "Unio App",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "dativoGithub": "Dativo auf GitHub",
+    "unioGithub": "Unio Lab GitHub",
+    "copyright": "© {year} Unio Lab. Alle Rechte vorbehalten.",
+    "bottomTagline": "Spezifikationsgetriebenes Produktlabor."
+  },
+  "contactForm": {
+    "nameLabel": "Name",
+    "emailLabel": "E-Mail",
+    "companyLabel": "Unternehmen",
+    "messageLabel": "Beschreiben Sie das Problem oder System, das Sie benötigen",
+    "namePlaceholder": "Ihr Name",
+    "emailPlaceholder": "sie@unternehmen.de",
+    "companyPlaceholder": "Ihr Unternehmensname",
+    "messagePlaceholder": "Beschreiben Sie das Produkt, die Plattform oder das System, das Sie benötigen. Nennen Sie alle Einschränkungen wie Zeitrahmen, Budget oder technische Präferenzen.",
+    "submit": "Nachricht senden",
+    "submitting": "Wird gesendet...",
+    "required": "*",
+    "privacyConsent": "Mit dem Absenden dieses Formulars stimmen Sie unserer <link>Datenschutzerklärung</link> zu.",
+    "successTitle": "Vielen Dank für Ihre Nachricht",
+    "successMessage": "Wir werden Ihre Nachricht prüfen und uns innerhalb eines Werktages bei Ihnen melden.",
+    "successAction": "Eine weitere Nachricht senden"
+  },
+  "cookie": {
+    "message": "Wir verwenden Cookies, um zu verstehen, wie Besucher mit unserer Seite interagieren.",
+    "privacyLink": "Datenschutzerklärung",
+    "decline": "Ablehnen",
+    "accept": "Akzeptieren"
+  }
+}

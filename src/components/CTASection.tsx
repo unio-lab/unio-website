@@ -1,8 +1,11 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import Container from "./Container";
 import Button from "./Button";
 
 interface CTASectionProps {
-  title: string;
+  title?: string;
   description?: string;
   buttonText?: string;
   buttonHref?: string;
@@ -11,27 +14,27 @@ interface CTASectionProps {
 export default function CTASection({
   title,
   description,
-  buttonText = "Get in Touch",
+  buttonText,
   buttonHref = "/contact",
 }: CTASectionProps) {
+  const t = useTranslations("cta");
+
   return (
     <section className="bg-navy py-20">
       <Container className="text-center">
         <h2 className="font-heading text-3xl font-bold tracking-tight text-white sm:text-4xl">
-          {title}
+          {title ?? t("title")}
         </h2>
-        {description && (
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-white/70">
-            {description}
-          </p>
-        )}
+        <p className="mx-auto mt-4 max-w-2xl text-lg text-white/70">
+          {description ?? t("descriptionShort")}
+        </p>
         <div className="mt-8">
           <Button
             href={buttonHref}
             variant="secondary"
             className="bg-white text-navy hover:bg-white/90 border-0"
           >
-            {buttonText}
+            {buttonText ?? t("button")}
           </Button>
         </div>
       </Container>

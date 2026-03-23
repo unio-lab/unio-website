@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "siteTitle": "Unio Lab — Spec-Driven Product Lab",
+    "siteDescription": "Spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks.",
+    "work": {
+      "title": "Our Work",
+      "description": "Small teams. Precise specifications. Production platforms shipped in weeks. The evidence that spec-driven, AI-augmented engineering works at scale."
+    },
+    "about": {
+      "title": "About",
+      "description": "We made a bet on the Jevons Paradox: AI making software cheaper doesn't shrink the market for engineering rigour — it expands it. Unio Lab is built for exactly this moment."
+    },
+    "philosophy": {
+      "title": "Philosophy",
+      "description": "The Jevons Paradox and the coming shortage of engineers. AI will not reduce demand for software engineers. It will create a shortage of them."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Tell us about the system you need engineered. We'll assess fit, scope the specification work, and give you a clear timeline and fixed price within a week."
+    },
+    "imprint": {
+      "title": "Imprint",
+      "description": "Legal imprint (Impressum) for Unio Lab as required by German law."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Unio Lab privacy policy. How we collect, use, and protect your personal data in compliance with the GDPR."
+    }
+  },
+  "work": {
+    "label": "Our Work",
+    "title": "This is what the next generation of software companies looks like.",
+    "description": "Small teams. Precise specifications. Production platforms shipped in weeks. These are not demos or prototypes — they are the evidence that spec-driven, AI-augmented engineering works at a scale that used to require organisations ten times our size.",
+    "subdescription": "Every product below was built using our full lifecycle: human architecture, AI-augmented implementation, human verification, deployed in production.",
+    "dativo": {
+      "tag": "Data Act Compliance · EU",
+      "title": "Dativo",
+      "problem": "The EU Data Act (Regulation 2023/2854) is in force since September 2025. Manufacturers of connected products must share product-generated data with customers and authorized third parties — or face penalties of up to 4% of global annual turnover. Most manufacturers have equipment data scattered across silos with conflicting identifiers, no customer-facing access layer, and no audit trail.",
+      "solution": "Dativo is an operational compliance platform for connected product manufacturers navigating the EU Data Act. Equipment registry, smart data matching, customer self-service portal, fulfillment engine with SLA tracking, trade secret classification, compliance audit trail. Open-core — Community Edition on GitHub, Commercial Edition for enterprise.",
+      "howBuilt": "Built by a two-person team in weeks. This is what becomes possible when AI handles implementation volume and senior engineers govern every architecture decision. The economics of building a platform like Dativo changed dramatically. The bar for what it needs to do didn't.",
+      "problemHeading": "The Problem",
+      "solutionHeading": "What We Built",
+      "howBuiltHeading": "How We Built It"
+    },
+    "filahti": {
+      "tag": "Agricultural Advisory · Tunisia",
+      "title": "Filahti",
+      "problem": "Tunisia has 516,000 farms, 87% under 20 hectares. Public agricultural extension services are functionally dead — offices can't cover fuel for field visits. No private advisory market exists. Pesticide dealers fill the vacuum, diagnosing and selling with a conflict of interest and credit terms reaching 50% interest. Climate conditions are changing fast, with prolonged drought since 2017, and inherited farming knowledge is no longer enough.",
+      "solution": "Filahti connects Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers. Hybrid WhatsApp bot and companion mobile app. Credit-based consultations, AI-assisted diagnostics, digital prescriptions, on-site visit booking — in Tunisian Arabic, Modern Standard Arabic, and French.",
+      "howBuilt": "A product that would have taken a funded team of eight a year to build. Specified and shipped by two engineers. The Jevons Paradox applies here too: AI making agricultural software viable for niche markets means the farmers who needed expertise the most can now access it. Launching 2026.",
+      "specHeading": "What the Specification Looks Like",
+      "specText": "The complete Filahti specification — system architecture, functional requirements, implementation plan, test results, and handoff documentation — is available as a live walkthrough. You can read the same documents our engineers authored, see the comments from stakeholders, and explore every phase of the delivery lifecycle. This is what every Unio Lab engagement produces.",
+      "specLink": "Explore the Full Specification →"
+    },
+    "whatsNext": {
+      "title": "What's next",
+      "description": "We're always scoping the next product. If you have a problem that needs a platform — not just a feature — we should talk."
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "We made a bet on a paradox.",
+    "story": {
+      "p1": "Seven years ago Unio Lab was a cloud-native consultancy — Kubernetes, CI/CD, event-driven architecture. We were good at it. But we were watching something happen in the market that most engineering firms were getting backwards.",
+      "p2": "The common story was: AI will automate software, so engineers are finished. We thought the opposite. We thought the Jevons Paradox would apply — when something becomes dramatically more efficient, consumption rises faster than the efficiency saves. Make it cheap to start a software company and millions more software companies start. Each of those companies needs infrastructure that scales. Each of them eventually needs a human who understands what breaks at five hundred users that worked fine at fifty.",
+      "p3Start": "So we pivoted — not away from engineering, but towards the part of it that matters most when AI does the implementation volume: ",
+      "p3Emphasis": "specification, architecture, and verification.",
+      "p3End": " The decisions that determine whether a system holds together in eighteen months are still made by humans with hard-won domain knowledge. We built a lab around exactly those decisions.",
+      "p4": "Today Unio Lab operates across three locations. Every product we build goes through the same lifecycle: human-authored specification as the source of truth, AI agents handling implementation at scale, human engineers owning every architecture decision and quality gate. The result is production software shipped in weeks with the rigour of a team ten times our size.",
+      "p5": "Dativo and Filahti are the proof. Both built by a two-person team. Both production platforms. Both delivered in weeks. We're not describing a methodology — we're running it."
+    },
+    "principles": {
+      "title": "How we work",
+      "specs": {
+        "title": "Specifications are the product",
+        "description": "We don't ship code — we ship specified systems. The specification suite is the primary deliverable. Code is a generated artifact that serves the spec. When the spec changes, the code regenerates. This is how we maintain architectural integrity across every iteration."
+      },
+      "humanAi": {
+        "title": "Human architecture, agent implementation",
+        "description": "Every architecture decision is made by an engineer with domain knowledge. AI agents handle the implementation volume under contracts defined by the spec. We don't delegate thinking to AI — we delegate typing."
+      },
+      "verifiable": {
+        "title": "Verifiable, not trustable",
+        "description": "We don't ask you to trust AI-generated output. We verify every component against its specification — automatically, continuously, before anything ships. Contract tests, acceptance tests, and architectural invariants are non-negotiable quality gates."
+      },
+      "open": {
+        "title": "Open by default",
+        "description": "Dativo's core is open source. Our specifications, agent configurations, and architecture decisions are transparent. We believe the best way to prove engineering quality is to make it inspectable."
+      }
+    },
+    "locations": {
+      "title": "Where we are",
+      "mg": {
+        "title": "Mönchengladbach",
+        "description": "Engineering leadership and product architecture. German business hours, EU compliance expertise."
+      },
+      "paris": {
+        "title": "Paris",
+        "description": "Product strategy and client-facing work. French market and European partnerships."
+      },
+      "tunis": {
+        "title": "Tunis",
+        "description": "Spec-driven development and delivery operations. Continuous shipping across time zones."
+      }
+    }
+  },
+  "philosophy": {
+    "label": "Point of view",
+    "title": "The Jevons Paradox and the coming shortage of engineers",
+    "subtitle": "AI will not reduce demand for software engineers. It will create a shortage of them. Here is why we believe that — and why it shapes everything we build at Unio Lab.",
+    "paradox": {
+      "title": "The paradox",
+      "p1": "In 1865, the economist William Stanley Jevons observed something counterintuitive: as steam engines became more efficient, coal consumption went up, not down. More efficient machines didn't reduce demand for the resource — they made the resource economically viable for more applications, which multiplied consumption faster than efficiency could save it.",
+      "p2": "This is the Jevons Paradox. And it applies, with striking regularity, every time a technology dramatically lowers the cost of entry to a market."
+    },
+    "pattern": {
+      "title": "The pattern is older than software",
+      "p1": "When smartphones put a production-quality camera into every pocket, the global market for professional camera operators and editors grew. When Excel automated accounting functions, demand for accountants and analysts increased. When YouTube collapsed the economics of television — from €5M per episode to a man cleaning rusty tools in his shed with 200K subscribers — it created an enormous new market for video producers, editors, and directors.",
+      "p2": "The same logic applies every time. Chefs who publish their recipes free online find their restaurants fully booked. Consultants who give away their best ideas in books get hired at higher rates. Making something cheap doesn't destroy the market. It expands it.",
+      "examples": {
+        "excel": {
+          "era": "Excel · 1985",
+          "automated": "Automated",
+          "thing": "core accounting functions",
+          "grew": "grew",
+          "result": "demand for accountants"
+        },
+        "camera": {
+          "era": "Smartphone cameras · 2007",
+          "automated": "Democratised",
+          "thing": "photography",
+          "grew": "grew",
+          "result": "demand for professional operators"
+        },
+        "youtube": {
+          "era": "YouTube · 2005",
+          "automated": "Collapsed",
+          "thing": "TV production costs",
+          "grew": "grew",
+          "result": "demand for video production talent"
+        }
+      }
+    },
+    "software": {
+      "title": "Software is next",
+      "p1": "What used to cost €500,000 and six months of a dedicated engineering team now costs €5,000 and two weeks. That cost collapse means the number of viable software companies isn't staying flat — it is growing by orders of magnitude. Ideas that previously needed 100,000 users to break even now need 1,000. The total addressable market for software is expanding faster than AI can displace the engineers inside it.",
+      "p2": "Each of those new companies — every one of the millions who will now build what they previously couldn't afford to — eventually faces the same problem: the codebase that worked at fifty users breaks at five hundred. The schema that made sense in week two creates a migration crisis in month eight. The architecture that shipped fast becomes the liability that prevents the next feature from shipping at all.",
+      "p3": "That's not a problem AI agents solve. That's a problem senior engineers solve. And there are now far more companies who need that expertise than there are engineers who have it."
+    },
+    "whyShapes": {
+      "title": "Why this shapes how we build",
+      "p1": "At Unio Lab, we believe the value of engineering rigour doesn't fall as AI lowers implementation costs — it rises. When AI does the volume, what remains scarce is the human judgement that determines whether a system will hold together at scale.",
+      "p2": "That's why our methodology puts specification first: a precise, machine-readable definition of the system before a line of code is written. It's why our engineers have seven or more years of experience in cloud-native architecture and industrial platform engineering. And it's why we verify every AI-generated output against a contract before it ships.",
+      "p3": "We're not using AI to replace engineering. We're using it to make the parts of engineering that matter most available to the teams who need them right now — fast, rigorously, without the overhead of a twenty-person agency.",
+      "p4": "The Jevons Paradox has surprised us before. We think it's about to surprise the software industry. We built Unio Lab to be on the right side of it."
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Start a conversation",
+    "description": "Tell us about the system you need engineered. We'll assess fit, scope the specification work, and give you a clear timeline and fixed price within a week.",
+    "emailLabel": "Prefer email? Reach us at",
+    "germany": "Germany",
+    "france": "France",
+    "tunisia": "Tunisia"
+  },
+  "imprint": {
+    "title": "Imprint",
+    "legalNote": "Angaben gemäß § 5 TMG",
+    "company": "Company",
+    "contact": "Contact",
+    "register": "Commercial Register",
+    "vat": "VAT ID",
+    "director": "Managing Director",
+    "dispute": "Dispute Resolution",
+    "companyName": "Unio Lab SARL",
+    "companyAddress": "Tunis, Tunisia",
+    "emailLabel": "Email",
+    "phone": "Phone: +49 2161 123 4567",
+    "registerLocation": "Registered at: Tunis, Tunisia",
+    "registerNumber": "Registration number: 1641895Z",
+    "directorName": "Haroun Afdhal",
+    "disputeText": "The European Commission provides a platform for online dispute resolution (ODR): <link>https://ec.europa.eu/consumers/odr</link>. We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "controller": {
+      "title": "1. Controller",
+      "text": "The data controller for this website is Unio Lab SARL, Tunis, Tunisia. For contact details, please see our <link>imprint page</link>."
+    },
+    "dataCollected": {
+      "title": "2. Data We Collect",
+      "intro": "When you visit our website, we may collect the following data:",
+      "contactForm": "Contact form submissions:",
+      "contactFormDetail": "Name, email address, company name, and message content when you submit our contact form.",
+      "technicalData": "Technical data:",
+      "technicalDataDetail": "IP address, browser type, operating system, and pages visited — collected automatically by our hosting provider for security and performance purposes."
+    },
+    "purpose": {
+      "title": "3. Purpose and Legal Basis",
+      "intro": "We process your data for the following purposes:",
+      "inquiries": "To respond to your inquiries (Art. 6(1)(b) GDPR — contract performance / pre-contractual measures).",
+      "security": "To ensure the security and availability of our website (Art. 6(1)(f) GDPR — legitimate interest)."
+    },
+    "sharing": {
+      "title": "4. Data Sharing",
+      "text": "We do not sell your personal data. We may share data with service providers who help us operate this website (e.g., hosting providers), bound by data processing agreements."
+    },
+    "retention": {
+      "title": "5. Data Retention",
+      "text": "We retain personal data only as long as necessary for the purpose it was collected, or as required by law. Contact form submissions are retained for up to 12 months."
+    },
+    "rights": {
+      "title": "6. Your Rights",
+      "text": "Under the GDPR, you have the right to access, rectify, erase, restrict processing, data portability, and object to processing of your personal data. To exercise these rights, contact us at <email>privacy@unio-lab.com</email>."
+    },
+    "cookies": {
+      "title": "7. Cookies",
+      "text": "This website uses only technically necessary cookies. We do not use tracking cookies or third-party advertising cookies."
+    },
+    "changes": {
+      "title": "8. Changes to This Policy",
+      "text": "We reserve the right to update this privacy policy at any time. Changes will be posted on this page with an updated revision date."
+    }
+  }
+}

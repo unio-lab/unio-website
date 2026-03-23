@@ -125,7 +125,7 @@ export async function POST(request: NextRequest) {
     if (resend && process.env.NOTIFICATION_EMAIL) {
       try {
         await resend.emails.send({
-          from: "UNIO Lab Website <noreply@unio-lab.com>",
+          from: "Unio Lab Website <noreply@unio-lab.com>",
           to: process.env.NOTIFICATION_EMAIL,
           subject: `New inquiry from ${name}${company ? ` at ${company}` : ""}`,
           html: `

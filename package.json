@@ -12,6 +12,7 @@
     "@hubspot/api-client": "^13.4.0",
     "@vercel/analytics": "^2.0.1",
     "next": "^15.5.12",
+    "next-intl": "^4.8.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "resend": "^6.9.3"

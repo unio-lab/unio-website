@@ -1,8 +1,8 @@
-# UNIO Lab — Full Site Content
+# Unio Lab — Full Site Content
 
-> UNIO Lab is a spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks. Based in Germany, France, and Tunisia.
+> Unio Lab is a spec-driven product lab. We author specifications, AI agents implement under contract, human engineers govern every decision. Production platforms shipped in weeks. Based in Germany, France, and Tunisia.
 
-UNIO Lab engineers production software platforms using a methodology called Spec → Agent → Ship. Human-authored specifications are the source of truth. AI agents are the implementation layer. Human engineers govern every architectural and quality decision. The result: production platforms with the architectural rigor of a much larger organization.
+Unio Lab engineers production software platforms using a methodology called Spec → Agent → Ship. Human-authored specifications are the source of truth. AI agents are the implementation layer. Human engineers govern every architectural and quality decision. The result: production platforms with the architectural rigor of a much larger organization.
 
 Current products include Dativo (EU Data Act compliance for connected product manufacturers, open-core on GitHub) and Filahti (agricultural advisory platform for Tunisian farmers via WhatsApp).
 
@@ -34,7 +34,7 @@ Specified, built, and shipped by a 2-person team in weeks.
 Digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers. Hybrid WhatsApp bot and companion mobile app with credit-based consultations, AI-assisted diagnostics, digital prescriptions, and on-site visit booking — in Tunisian Arabic, Modern Standard Arabic, and French.
 Specified and built by a 2-person team. Launching 2026.
 
-### Why UNIO Lab
+### Why Unio Lab
 
 - **Spec-Driven Engineering:** Specifications are our source of truth — not prompts, not conversations, not tickets. Every system starts as a structured, machine-readable spec. Implementation is generated from it, tested against it, and regenerated when it changes.
 - **Verifiable by Design:** Every output — code, API, deployment — is validated against its specification before it ships. Contract tests, acceptance tests, and architectural invariants run automatically. We verify AI-generated code, not trust it.
@@ -72,9 +72,9 @@ Specified and built by a 2-person team. Launching 2026.
 
 ### Two continents. One lab.
 
-UNIO Lab started seven years ago as a cloud-native consulting firm — Kubernetes, CI/CD, event-driven architecture. We were good at it. But consulting has a ceiling: you're always selling time, never building equity.
+Unio Lab started seven years ago as a cloud-native consulting firm — Kubernetes, CI/CD, event-driven architecture. We were good at it. But consulting has a ceiling: you're always selling time, never building equity.
 
-Today UNIO Lab is a spec-driven product lab. We build complete software platforms using a methodology we call Spec → Agent → Ship: human-authored specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision. Dativo and Filahti are the proof that this approach works — two production platforms, built by two engineers, with the architectural rigor of a much larger organization.
+Today Unio Lab is a spec-driven product lab. We build complete software platforms using a methodology we call Spec → Agent → Ship: human-authored specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision. Dativo and Filahti are the proof that this approach works — two production platforms, built by two engineers, with the architectural rigor of a much larger organization.
 
 What makes this possible isn't AI tooling — it's engineering discipline applied to AI tooling. The spec-driven lifecycle ensures that AI-generated code is always verifiable against a structured specification. The result is speed without the quality trade-offs that plague prompt-based development. We don't generate code from conversations. We generate it from contracts.
 
@@ -104,8 +104,8 @@ Start a conversation. Tell us about the system you need engineered. We'll assess
 
 ## Frequently Asked Questions
 
-**What does UNIO Lab do?**
-UNIO Lab is a spec-driven product lab. We engineer production software platforms using structured specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision.
+**What does Unio Lab do?**
+Unio Lab is a spec-driven product lab. We engineer production software platforms using structured specifications as the source of truth, AI agents as the implementation layer, and human engineers governing every architectural and quality decision.
 
 **What is the Spec → Agent → Ship lifecycle?**
 Spec → Agent → Ship is our five-phase engineering lifecycle: Specify (human-authored specifications), Plan (AI-generated implementation plan, human-validated), Build (agentic implementation with continuous spec validation), Verify (autonomous quality gates), and Ship (deployed product with specification suite). Every product we build follows this lifecycle.
@@ -116,8 +116,8 @@ Dativo is an open-core compliance platform that enables manufacturers of connect
 **What is Filahti?**
 Filahti is a digital platform connecting Tunisian farmers with vetted agricultural experts, government extension agents, and certified input suppliers through a hybrid WhatsApp bot and companion mobile app. It supports Tunisian Arabic, Modern Standard Arabic, and French.
 
-**Where is UNIO Lab based?**
-UNIO Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for spec-driven development and delivery operations.
+**Where is Unio Lab based?**
+Unio Lab operates from three locations: Mönchengladbach (Germany) for engineering leadership, Paris (France) for product strategy, and Tunis (Tunisia) for spec-driven development and delivery operations.
 
-**What do I receive when UNIO Lab delivers a product?**
+**What do I receive when Unio Lab delivers a product?**
 You receive the production system, the complete specification suite, agent configuration, and a handoff guide. You can maintain, extend, or rebuild the system without us. The spec outlives the code.

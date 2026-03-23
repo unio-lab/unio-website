@@ -1,19 +1,22 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import Button from "./Button";
-
-const navLinks = [
-  { href: "/work", label: "Work" },
-  { href: "/about", label: "About" },
-  { href: "/philosophy", label: "Philosophy" },
-  { href: "/contact", label: "Contact" },
-];
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const t = useTranslations("nav");
+
+  const navLinks = [
+    { href: "/work" as const, label: t("work") },
+    { href: "/about" as const, label: t("about") },
+    { href: "/philosophy" as const, label: t("philosophy") },
+    { href: "/contact" as const, label: t("contact") },
+  ];
 
   return (
     <header className="sticky top-0 z-50 border-b border-navy/5 bg-white/95 backdrop-blur-sm">
@@ -22,10 +25,10 @@ export default function Navigation() {
         aria-label="Main navigation"
       >
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0" aria-label="UNIO Lab home">
+        <Link href="/" className="flex-shrink-0" aria-label="Unio Lab home">
           <Image
             src="/logo-kit/wordmark/unio-navy.svg"
-            alt="UNIO Lab"
+            alt="Unio Lab"
             width={100}
             height={28}
             className="h-7 w-auto"
@@ -46,11 +49,12 @@ export default function Navigation() {
           ))}
         </div>
 
-        {/* Desktop CTA */}
-        <div className="hidden lg:block">
-          <Button href="/contact" variant="primary">
-            Start a Conversation
-          </Button>
+        {/* Desktop CTA + Language Switcher */}
+        <div className="hidden lg:flex lg:items-center lg:gap-4">
+          {/* <Button href="/contact" variant="primary">
+            {t("cta")}
+          </Button> */}
+          <LanguageSwitcher />
         </div>
 
         {/* Mobile menu button */}
@@ -87,10 +91,11 @@ export default function Navigation() {
                 {link.label}
               </Link>
             ))}
-            <div className="pt-2">
-              <Button href="/contact" variant="primary" className="w-full">
-                Start a Conversation
-              </Button>
+            <div className="flex items-center justify-between pt-2">
+              {/* <Button href="/contact" variant="primary" className="flex-1 ml-3">
+                {t("cta")}
+              </Button> */}
+              <LanguageSwitcher />
             </div>
           </div>
         </div>
